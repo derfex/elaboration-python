@@ -44,6 +44,13 @@
 - `float('4.2')`
 - `str(42)`
 
+#### Conditions
+
+- `if condition:`, `elif condition:`, `else:`
+- `condition_1 and condition_2`
+- `a == b`
+- `a > b`
+
 #### Comments
 
 - `# …`
