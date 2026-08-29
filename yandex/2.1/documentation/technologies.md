@@ -6,8 +6,8 @@
 
 #### In and out
 
-- `input`
-- `print`
+- `input()`
+- `print()`
 
 #### Numbers
 
@@ -27,9 +27,10 @@
   - `f'{var:02d}'`
   - `f'{var:.2f}'`
   - `f'{var:>{length}}'`
-  - `f"""\
-    """`
-  - `
+  - ```python
+    f"""\
+    """
+    ```
 
 #### Collections
 
@@ -37,15 +38,17 @@
 
 #### Type conversion
 
-- `int`
+- `int()`
   - `int('42')`
   - `int('101', 2)`
-- `float`
-- `str`
+- `float('4.2')`
+- `str(42)`
 
 #### Comments
 
 - `# …`
-- `"""
+- ```python
+  """
   …
-  """`
+  """
+  ```
