@@ -4,7 +4,7 @@
 
 ### Python
 
-#### In and out
+#### Input and output
 
 - `input()`
 - `print()`

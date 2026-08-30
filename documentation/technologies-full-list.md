@@ -4,7 +4,7 @@
 
 ### Python
 
-#### In and out
+#### Input and output
 
 - `input()`
 - `print()`
@@ -17,6 +17,25 @@
 - `42 / 42`
 - `42 // 42`
 - `42 % 42`
+- `42 ** 42`
+- `num += 42`
+- `num -= 42`
+- `num *= 42`
+
+- `max(…)`
+- `min(…)`
+
+- `round(…)`
+
+##### Number comparison
+
+- `42 == 42`
+- `42 != 42`
+- `42 > 42`, `42 < 42`
+- `42 >= 42`, `42 <= 42`
+- `42 == 42 == 42`
+- `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
+- `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
 #### Strings
 
@@ -27,10 +46,22 @@
   - `f'{var:02d}'`
   - `f'{var:.2f}'`
   - `f'{var:>{length}}'`
+  - `f'{var:^{length}}'`
+  - `f'{var:<{length}}'`
   - ```python
     f"""\
     """
     ```
+
+- `len('str')`
+
+##### String comparison
+
+- `'str' > 'str'`, `'str' < 'str'`
+- `'str' in 'str'`
+
+- `max('str', 'str')`
+- `min('str', 'str')`
 
 #### Collections
 
@@ -48,8 +79,7 @@
 
 - `if condition:`, `elif condition:`, `else:`
 - `condition_1 and condition_2`
-- `a == b`
-- `a > b`
+- `condition_1 or condition_2`
 
 #### Comments
 
