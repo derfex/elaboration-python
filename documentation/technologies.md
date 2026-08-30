@@ -59,10 +59,6 @@
 
 - `min('str', 'str')`
 
-#### Collections
-
-- `[a, b, c] = 'str'`
-
 #### Type conversion
 
 - `int()`
@@ -76,6 +72,10 @@
 - `if condition:`, `elif condition:`, `else:`
 - `condition_1 and condition_2`
 - `condition_1 or condition_2`
+
+#### Expressions
+
+- `[a, b, c] = 'str'`
 
 #### Comments
 

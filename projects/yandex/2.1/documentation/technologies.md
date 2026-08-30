@@ -32,13 +32,13 @@
     """
     ```
 
-#### Collections
-
-- `[a, b, c] = 'str'`
-
 #### Type conversion
 
 - `int()`
   - `int('42')`
   - `int('101', 2)`
 - `str(42)`
+
+#### Expressions
+
+- `[a, b, c] = 'str'`

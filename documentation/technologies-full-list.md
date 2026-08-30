@@ -64,10 +64,6 @@
 - `max('str', 'str')`
 - `min('str', 'str')`
 
-#### Collections
-
-- `[a, b, c] = 'str'`
-
 #### Type conversion
 
 - `int()`
@@ -85,6 +81,10 @@
 #### Cycles
 
 - `while condition:`
+
+#### Expressions
+
+- `[a, b, c] = 'str'`
 
 #### Comments
 
