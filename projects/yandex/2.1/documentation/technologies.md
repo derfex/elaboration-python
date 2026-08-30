@@ -18,7 +18,7 @@
 - `42 // 42`
 - `42 % 42`
 
-#### Strings
+#### Text Sequence Type — `str`
 
 - `'str' + 'ing'`
 - `'str' * 42`
