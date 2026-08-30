@@ -1,2 +1,3 @@
-# elaboration-python
-Learn Python
+# Elaboration. Python
+
+Learn Python.
