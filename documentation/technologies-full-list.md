@@ -9,7 +9,7 @@
 - `input()`
 - `print()`
 
-#### Numbers
+#### Numeric Types — `int`, `float`, `complex`
 
 - `42 + 42`
 - `42 - 42`
