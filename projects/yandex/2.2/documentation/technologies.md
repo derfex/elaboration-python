@@ -46,6 +46,7 @@
 
 ##### String comparison
 
+- `'str' == 'str'`, `'str' != 'str'`
 - `'str' > 'str'`, `'str' < 'str'`
 - `'str' in 'str'`
 

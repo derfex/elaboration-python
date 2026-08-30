@@ -57,6 +57,7 @@
 
 ##### String comparison
 
+- `'str' == 'str'`, `'str' != 'str'`
 - `'str' > 'str'`, `'str' < 'str'`
 - `'str' in 'str'`
 
@@ -80,6 +81,10 @@
 - `if condition:`, `elif condition:`, `else:`
 - `condition_1 and condition_2`
 - `condition_1 or condition_2`
+
+#### Cycles
+
+- `while condition:`
 
 #### Comments
 
