@@ -73,7 +73,7 @@
 - `condition_1 and condition_2`
 - `condition_1 or condition_2`
 
-#### Expressions
+#### Other
 
 - `[a, b, c] = 'str'`
 

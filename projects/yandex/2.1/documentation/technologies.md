@@ -39,6 +39,6 @@
   - `int('101', 2)`
 - `str(42)`
 
-#### Expressions
+#### Other
 
 - `[a, b, c] = 'str'`

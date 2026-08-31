@@ -82,7 +82,7 @@
 
 - `while condition:`
 
-#### Expressions
+#### Other
 
 - `[a, b, c] = 'str'`
 
