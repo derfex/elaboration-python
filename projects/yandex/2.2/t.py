@@ -42,22 +42,22 @@
 
 sought_after = 'зайка'
 
-description_1 = input()
-description_2 = input()
-description_3 = input()
+terrain_description_1 = input()
+terrain_description_2 = input()
+terrain_description_3 = input()
 
-result_description = ''
-if sought_after in description_1:
-    result_description = description_1
-if sought_after in description_2:
-    if result_description == '':
-        result_description = description_2
+result_terrain_description = ''
+if sought_after in terrain_description_1:
+    result_terrain_description = terrain_description_1
+if sought_after in terrain_description_2:
+    if result_terrain_description == '':
+        result_terrain_description = terrain_description_2
     else:
-        result_description = min(result_description, description_2)
-if sought_after in description_3:
-    if result_description == '':
-        result_description = description_3
+        result_terrain_description = min(result_terrain_description, terrain_description_2)
+if sought_after in terrain_description_3:
+    if result_terrain_description == '':
+        result_terrain_description = terrain_description_3
     else:
-        result_description = min(result_description, description_3)
+        result_terrain_description = min(result_terrain_description, terrain_description_3)
 
-print(result_description, len(result_description))
+print(result_terrain_description, len(result_terrain_description))

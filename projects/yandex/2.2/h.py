@@ -37,9 +37,9 @@ YES — если в этой местности есть зайка, иначе 
 
 sought_after = 'зайка'
 
-description = input()
+terrain_description = input()
 
-if sought_after in description:
+if sought_after in terrain_description:
     print('YES')
 else:
     print('NO')
