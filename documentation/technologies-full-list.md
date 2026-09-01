@@ -8,6 +8,7 @@
 
 - `input()`
 - `print()`
+  - `print(42, end = 'str')`
 
 #### Numeric Types — `int`, `float`, `complex`
 
@@ -21,11 +22,12 @@
 - `num += 42`
 - `num -= 42`
 - `num *= 42`
+- `num //= 42`
 
-- `max(…)`
-- `min(…)`
+- `max(42, 4.2)`
+- `min(42, 4.2)`
 
-- `round(…)`
+- `round(42)`
 
 ##### Number comparison
 
@@ -37,10 +39,33 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
+#### Boolean Type — `bool`
+
+#### Sequence Types — `list`, `tuple`, `range`
+
+##### `list`
+
+Doc: `class list(iterable=(), /)`.
+
+- `list()`
+
+##### `range`
+
+Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
+
+- `range()`
+
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+- `tuple()`
+
 #### Text Sequence Type — `str`
 
 - `'str' + 'ing'`
 - `'str' * 42`
+- `variable += 'str'`
 - `f''`
   - `f'{var}'`
   - `f'{var:02d}'`
@@ -53,6 +78,11 @@
     """
     ```
 
+- `str[42]`, `str[-1]`
+- `str[42:42]`
+
+- `chr(42)`
+- `ord('ё')`
 - `len('str')`
 
 ##### String comparison
@@ -63,6 +93,12 @@
 
 - `max('str', 'str')`
 - `min('str', 'str')`
+
+#### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
+
+#### Set Types — `set`, `frozenset`
+
+#### Mapping Types — `dict`
 
 #### Type conversion
 
@@ -75,16 +111,22 @@
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
+- `match subject_expression:`, `case value:`
 - `condition_1 and condition_2`
 - `condition_1 or condition_2`
+- `not condition`
 
 #### Cycles
 
+- `for variable in iterable_variable:`
 - `while condition:`
+- `while variable := expression:`
+- `break`
 
 #### Other
 
 - `[a, b, c] = 'str'`
+- `number_1, number_2 = expression_1, expression_2`
 
 #### Comments
 

@@ -1,4 +1,4 @@
-# Technologies
+# Yandex. 2.3. Technologies
 
 ## Used
 
@@ -14,7 +14,6 @@
 - `42 + 42`
 - `42 - 42`
 - `42 * 42`
-- `42 / 42`
 - `42 // 42`
 - `42 % 42`
 - `42 ** 42`
@@ -24,7 +23,6 @@
 - `num //= 42`
 
 - `max(42, 4.2)`
-- `min(42, 4.2)`
 
 ##### Number comparison
 
@@ -32,9 +30,6 @@
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
-- `42 == 42 == 42`
-- `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
-- `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
 #### Sequence Types — `list`, `tuple`, `range`
 
@@ -46,19 +41,9 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Text Sequence Type — `str`
 
-- `'str' + 'ing'`
-- `'str' * 42`
 - `variable += 'str'`
 - `f''`
   - `f'{var}'`
-  - `f'{var:02d}'`
-  - `f'{var:.2f}'`
-  - `f'{var:>{length}}'`
-  - `f'{var:^{length}}'`
-  - ```python
-    f"""\
-    """
-    ```
 
 - `str[42]`, `str[-1]`
 - `str[42:42]`
@@ -70,7 +55,6 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
 - `'str' in 'str'`
 
 - `min('str', 'str')`
@@ -79,15 +63,12 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `int()`
   - `int('42')`
-  - `int('101', 2)`
 - `float('4.2')`
-- `str(42)`
 
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 - `match subject_expression:`, `case value:`
-- `condition_1 and condition_2`
 - `condition_1 or condition_2`
 - `not condition`
 
@@ -100,13 +81,4 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Other
 
-- `[a, b, c] = 'str'`
 - `number_1, number_2 = expression_1, expression_2`
-
-#### Comments
-
-- ```python
-  """
-  …
-  """
-  ```
