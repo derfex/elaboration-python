@@ -24,6 +24,15 @@
 
 - `max(42, 4.2)`
 
+##### `int`
+
+- `int()`
+  - `int('42')`
+
+##### `float`
+
+- `float('4.2')`
+
 ##### Number comparison
 
 - `42 == 42`
@@ -58,12 +67,6 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 - `'str' in 'str'`
 
 - `min('str', 'str')`
-
-#### Type conversion
-
-- `int()`
-  - `int('42')`
-- `float('4.2')`
 
 #### Conditions
 

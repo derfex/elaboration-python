@@ -21,8 +21,17 @@
 - `num -= 42`
 - `num *= 42`
 
-- `max(…)`
-- `min(…)`
+- `max(42, 4.2)`
+- `min(42, 4.2)`
+
+##### `int`
+
+- `int()`
+  - `int('42')`
+
+##### `float`
+
+- `float('4.2')`
 
 ##### Number comparison
 
@@ -51,11 +60,6 @@
 - `'str' in 'str'`
 
 - `min('str', 'str')`
-
-#### Type conversion
-
-- `int()`
-- `float('4.2')`
 
 #### Conditions
 

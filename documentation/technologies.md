@@ -26,6 +26,16 @@
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
+##### `int`
+
+- `int()`
+  - `int('42')`
+  - `int('101', 2)`
+
+##### `float`
+
+- `float('4.2')`
+
 ##### Number comparison
 
 - `42 == 42`
@@ -67,6 +77,10 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 - `ord('ё')`
 - `len('str')`
 
+##### `str`
+
+- `str(42)`
+
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
@@ -74,14 +88,6 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 - `'str' in 'str'`
 
 - `min('str', 'str')`
-
-#### Type conversion
-
-- `int()`
-  - `int('42')`
-  - `int('101', 2)`
-- `float('4.2')`
-- `str(42)`
 
 #### Conditions
 

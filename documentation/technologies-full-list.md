@@ -30,6 +30,16 @@
 
 - `round(42)`
 
+##### `int`
+
+- `int()`
+  - `int('42')`
+  - `int('101', 2)`
+
+##### `float`
+
+- `float('4.2')`
+
 ##### Number comparison
 
 - `42 == 42`
@@ -86,6 +96,10 @@ Doc: `class tuple(iterable=(), /)`.
 - `ord('ё')`
 - `len('str')`
 
+##### `str`
+
+- `str(42)`
+
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
@@ -100,14 +114,6 @@ Doc: `class tuple(iterable=(), /)`.
 #### Set Types — `set`, `frozenset`
 
 #### Mapping Types — `dict`
-
-#### Type conversion
-
-- `int()`
-  - `int('42')`
-  - `int('101', 2)`
-- `float('4.2')`
-- `str(42)`
 
 #### Conditions
 

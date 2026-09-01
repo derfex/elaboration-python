@@ -18,6 +18,12 @@
 - `42 // 42`
 - `42 % 42`
 
+##### `int`
+
+- `int()`
+  - `int('42')`
+  - `int('101', 2)`
+
 #### Text Sequence Type — `str`
 
 - `'str' + 'ing'`
@@ -32,11 +38,8 @@
     """
     ```
 
-#### Type conversion
+##### `str`
 
-- `int()`
-  - `int('42')`
-  - `int('101', 2)`
 - `str(42)`
 
 #### Other
