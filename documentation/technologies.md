@@ -101,11 +101,11 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `for variable in iterable_variable:`
 - `while condition:`
-- `while variable := expression:`
 - `break`
 
 #### Other
 
+- `variable := expression`
 - `[a, b, c] = 'str'`
 - `number_1, number_2 = expression_1, expression_2`
 
