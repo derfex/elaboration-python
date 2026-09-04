@@ -97,7 +97,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 - `condition_1 or condition_2`
 - `not condition`
 
-#### Cycles
+#### Loops
 
 - `for variable in iterable_variable:`
 - `while condition:`

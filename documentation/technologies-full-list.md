@@ -125,12 +125,13 @@ Doc: `class tuple(iterable=(), /)`.
 - `condition_1 or condition_2`
 - `not condition`
 
-#### Cycles
+#### Loops
 
 - `for variable in iterable_variable:`
 - `while condition:`
 - `break`
 - `continue`
+- `else:`
 
 #### Other
 
