@@ -52,6 +52,8 @@
 
 #### Boolean Type — `bool`
 
+- `False`, `True`
+
 #### Sequence Types — `list`, `tuple`, `range`
 
 ##### `list`
@@ -128,6 +130,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `for variable in iterable_variable:`
 - `while condition:`
 - `break`
+- `continue`
 
 #### Other
 
