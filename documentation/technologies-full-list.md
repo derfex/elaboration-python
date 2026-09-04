@@ -81,9 +81,9 @@ Doc: `class tuple(iterable=(), /)`.
   - `f'{var}'`
   - `f'{var:02d}'`
   - `f'{var:.2f}'`
-  - `f'{var:>{length}}'`
-  - `f'{var:^{length}}'`
   - `f'{var:<{length}}'`
+  - `f'{var:^{length}}'`
+  - `f'{var:>{length}}'`
   - ```python
     f"""\
     """

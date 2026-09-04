@@ -48,8 +48,8 @@
 - `'str' * 42`
 - `f''`
   - `f'{var}'`
-  - `f'{var:>{length}}'`
   - `f'{var:^{length}}'`
+  - `f'{var:>{length}}'`
 
 - `len('str')`
 

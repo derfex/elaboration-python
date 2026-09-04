@@ -63,8 +63,8 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
   - `f'{var}'`
   - `f'{var:02d}'`
   - `f'{var:.2f}'`
-  - `f'{var:>{length}}'`
   - `f'{var:^{length}}'`
+  - `f'{var:>{length}}'`
   - ```python
     f"""\
     """
