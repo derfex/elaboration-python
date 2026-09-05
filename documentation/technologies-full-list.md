@@ -28,7 +28,7 @@
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
-- `round(42)`
+- `round(4.2)`
 
 ##### `int`
 
@@ -102,6 +102,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `str(42)`
 
+- `'str str'.split()`
+
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
@@ -136,6 +138,8 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `variable := expression`
+- `map()`
+- `a, b = <map object>`
 - `[a, b, c] = 'str'`
 - `number_1, number_2 = expression_1, expression_2`
 
