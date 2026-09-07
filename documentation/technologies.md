@@ -8,6 +8,8 @@
 
 - `input()`
 - `print()`
+  - `print(42, 'str', end='str')`
+  - `print(42, 'str', sep='str')`
 
 #### Numeric Types — `int`, `float`, `complex`
 
@@ -25,6 +27,8 @@
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
+
+- `round(4.2)`
 
 ##### `int`
 
@@ -45,6 +49,10 @@
 - `42 == 42 == 42`
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
+
+#### Boolean Type — `bool`
+
+- `False`, `True`
 
 #### Sequence Types — `list`, `tuple`, `range`
 
@@ -81,6 +89,8 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `str(42)`
 
+- `'str str'.split()`
+
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
@@ -102,10 +112,13 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 - `for variable in iterable_variable:`
 - `while condition:`
 - `break`
+- `continue`
 
 #### Other
 
 - `variable := expression`
+- `map()`
+- `a, b = <map object>`
 - `[a, b, c] = 'str'`
 - `number_1, number_2 = expression_1, expression_2`
 
