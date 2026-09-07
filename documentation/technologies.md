@@ -89,7 +89,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `str(42)`
 
-- `'str str'.split()`
+- `'str str'.split('str')`
 
 ##### String comparison
 

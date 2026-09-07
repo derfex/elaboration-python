@@ -102,7 +102,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `str(42)`
 
-- `'str str'.split()`
+- `'str str'.split('str')`
 
 ##### String comparison
 
