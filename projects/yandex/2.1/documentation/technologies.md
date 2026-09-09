@@ -11,6 +11,8 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
+##### Number operations
+
 - `42 + 42`
 - `42 - 42`
 - `42 * 42`
