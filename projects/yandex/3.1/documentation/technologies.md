@@ -83,10 +83,11 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `string_value_1 + string_value_2`
 
+- `'str' in 'str'`
+
 ###### Strings comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
-- `'str' in 'str'`
 
 ##### Strings functions
 
