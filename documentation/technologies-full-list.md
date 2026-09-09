@@ -140,7 +140,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`

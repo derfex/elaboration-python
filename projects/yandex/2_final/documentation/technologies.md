@@ -59,7 +59,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `break`
 
 #### Other
