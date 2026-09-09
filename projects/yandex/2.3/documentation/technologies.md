@@ -60,12 +60,12 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
+- `str[42]`, `str[-1]`
+- `str[42:42]`
+
 - `variable += 'str'`
 - `f''`
   - `f'{var}'`
-
-- `str[42]`, `str[-1]`
-- `str[42:42]`
 
 - `chr(42)`
 - `ord('ё')`

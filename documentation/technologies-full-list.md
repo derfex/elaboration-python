@@ -83,6 +83,9 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
+- `str[42]`, `str[-1]`
+- `str[42:42]`
+
 - `'str' + 'ing'`
 - `'str' * 42`
 - `variable += 'str'`
@@ -97,9 +100,6 @@ Doc: `class tuple(iterable=(), /)`.
     f"""\
     """
     ```
-
-- `str[42]`, `str[-1]`
-- `str[42:42]`
 
 - `chr(42)`
 - `ord('ё')`
