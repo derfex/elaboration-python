@@ -42,7 +42,7 @@
 addition_operator_symbol = '+'
 multiplication_operator_symbol = '*'
 subtraction_operator_symbol = '-'
-operator_symbols = {addition_operator_symbol, subtraction_operator_symbol, multiplication_operator_symbol}
+operator_symbols = (addition_operator_symbol, subtraction_operator_symbol, multiplication_operator_symbol)
 
 parts = input().split()
 

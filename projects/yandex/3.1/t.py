@@ -59,14 +59,14 @@ factorial_operator_symbol = '!'
 multiplication_operator_symbol = '*'
 subtraction_operator_symbol = '-'
 unary_minus_operator_symbol = '~'
-binary_operator_symbols = {
+binary_operator_symbols = (
     addition_operator_symbol,
     exact_division_operator_symbol,
     multiplication_operator_symbol,
     subtraction_operator_symbol,
-}
-unary_operator_symbols = {cloning_operator_symbol, factorial_operator_symbol, unary_minus_operator_symbol}
-ternary_operator_symbols = {change_order_operator_symbol}
+)
+unary_operator_symbols = (cloning_operator_symbol, factorial_operator_symbol, unary_minus_operator_symbol)
+ternary_operator_symbols = (change_order_operator_symbol,)
 
 parts = input().split()
 

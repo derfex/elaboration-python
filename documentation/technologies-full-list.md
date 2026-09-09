@@ -84,7 +84,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
 
-- `42 in {42, 4.2}`, `42 not in {42, 4.2}`
+- `42 in (42, 4.2)`, `42 not in (42, 4.2)`
 
 #### Text Sequence Type — `str`
 

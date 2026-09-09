@@ -82,7 +82,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 Doc: `class tuple(iterable=(), /)`.
 
-- `42 in {42, 4.2}`, `42 not in {42, 4.2}`
+- `42 in (42, 4.2)`, `42 not in (42, 4.2)`
 
 #### Text Sequence Type — `str`
 
