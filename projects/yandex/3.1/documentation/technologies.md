@@ -11,6 +11,8 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
+##### Number operations
+
 - `42 + 42`
 - `42 - 42`
 - `42 * 42`
@@ -20,14 +22,14 @@
 - `num += 42`
 - `num *= 42`
 
-##### `int`
-
-- `int()`
-
-##### Number comparison
+###### Number comparison
 
 - `42 != 42`
 - `42 >= 42`, `42 <= 42`
+
+##### `int`
+
+- `int()`
 
 #### Sequence Types — `list`, `tuple`, `range`
 
