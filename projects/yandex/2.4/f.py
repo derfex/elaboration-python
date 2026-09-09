@@ -37,6 +37,7 @@
 Самый распространённый способ поиска НОД — Алгоритм Евклида.
 """
 
+
 quantity = int(input())
 greatest_common_divisor = int(input())
 
