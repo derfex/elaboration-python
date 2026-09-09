@@ -43,18 +43,18 @@ Doc: `class list(iterable=(), /)`.
 
 ###### Lists operations
 
-- `42 in [42, 4.2]`, `42 not in [42, 4.2]`
+- `value in list_value`, `value not in list_value`
 
 ###### Lists functions
 
-- `len([42])`
-- `max([42, 4.2])`
+- `len(list_value)`
+- `max(list_value)`
 
 ###### Lists methods
 
-- `[42].append(42)`
-- `[42].index(42)`
-- `[42].pop()`
+- `list_variable.append(list_item_value)`
+- `list_variable.index(list_item_value)`
+- `list_variable.pop()`
 
 ##### `range`
 
