@@ -79,8 +79,12 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings operations
 
-- `'str' + 'ing'`
+- `string_value_1 + string_value_2`
 
+###### Strings comparison
+
+- `'str' == 'str'`, `'str' != 'str'`
+- `'str' in 'str'`
 
 - `chr(42)`
 - `ord('ё')`
@@ -99,11 +103,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str str'.split('str')`
 - `'str str'.startswith('str')`
 - `'str str'.upper()`
-
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' in 'str'`
 
 - `min('str', 'str')`
 
