@@ -68,7 +68,7 @@ Doc: `class list(iterable=(), /)`.
 
 - `[42][0]`
 
-###### List operations
+###### Lists operations
 
 - `[42] + [42]`
 - `[42] * 42`
@@ -79,7 +79,7 @@ Doc: `class list(iterable=(), /)`.
 - `del list_variable[42]`
 - `del list_variable[::42]`
 
-###### List methods
+###### Lists methods
 
 - `[42].append(42)`
 - `[42].clear()`
@@ -92,7 +92,7 @@ Doc: `class list(iterable=(), /)`.
 - `[42].reverse()`
 - `[42].sort()`
 
-###### List functions
+###### Lists functions
 
 - `len([42])`
 - `max([42, 4.2])`
