@@ -52,7 +52,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 ##### Strings methods
 
-- `'str str'.split('str')`
+- `string_value_1.split(string_value_2)`
 
 #### Conditions
 

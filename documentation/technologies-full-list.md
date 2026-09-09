@@ -123,7 +123,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings methods
 
-- `'str str'.split('str')`
+- `string_value_1.split(string_value_2)`
 
 #### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
 
