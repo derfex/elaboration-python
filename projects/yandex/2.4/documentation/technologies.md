@@ -8,7 +8,7 @@
 
 - `input()`
 - `print()`
-  - `print(42, 'str', end='str')`
+  - `print(value_1, value_2, end=string_value)`
 
 #### Numeric Types — `int`, `float`, `complex`
 
@@ -75,7 +75,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Strings comparison
 
-- `'str' == 'str'`, `'str' != 'str'`
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
 ##### `str`
 
