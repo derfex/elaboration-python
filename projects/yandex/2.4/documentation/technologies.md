@@ -8,7 +8,7 @@
 
 - `input()`
 - `print()`
-  - `print(42, 'str', end='str')`
+  - `print(value_1, value_2, end=string_value)`
 
 #### Numeric Types — `int`, `float`, `complex`
 
