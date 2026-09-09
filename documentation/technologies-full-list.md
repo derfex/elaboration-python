@@ -68,39 +68,39 @@ Doc: `class list(iterable=(), /)`.
 
 - `[42]`, `[42, 4.2]`
 
-- `list_variable[index]`, `list_variable[-index]`
-- `list_variable[i:j]`, `list_variable[i:j:k]`
+- `list_value[index]`, `list_value[-index]`
+- `list_value[i:j]`, `list_value[i:j:k]`
 
 ###### Lists operations
 
-- `list_variable_1 + list_variable_2`
-- `list_variable * 42`
-- `list_variable_1 += list_variable_2`
+- `list_value_1 + list_value_2`
+- `list_value * 42`
+- `list_variable += list_value`
 
-- `variable in list_variable`, `variable not in list_variable`
+- `value in list_value`, `value not in list_value`
 
 - `del list_variable[index]`
 - `del list_variable[i:j:k]`
 
-###### Lists methods
-
-- `list_variable.append(variable)`
-- `list_variable.clear()`
-- `list_variable.count(variable)`
-- `list_variable.extend(variable)`
-- `list_variable.index(variable)`
-- `list_variable.insert(index, variable)`
-- `list_variable.pop()`
-- `list_variable.remove(variable)`
-- `list_variable.reverse()`
-- `list_variable.sort()`
-
 ###### Lists functions
 
-- `len(list_variable)`
-- `max(list_variable)`
-- `min(list_variable)`
-- `sorted(list_variable)`
+- `len(list_value)`
+- `max(list_value)`
+- `min(list_value)`
+- `sorted(list_value)`
+
+###### Lists methods
+
+- `list_variable.append(list_item_value)`
+- `list_variable.clear()`
+- `list_variable.count(list_item_value)`
+- `list_variable.extend(iterable_value)`
+- `list_variable.index(list_item_value)`
+- `list_variable.insert(index, list_item_value)`
+- `list_variable.pop()`
+- `list_variable.remove(list_item_value)`
+- `list_variable.reverse()`
+- `list_variable.sort()`
 
 ##### `range`
 
