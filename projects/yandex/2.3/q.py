@@ -32,6 +32,7 @@
 Одно натуральное число — результат очистки.
 """
 
+
 """
 number_as_string = input()
 
@@ -46,7 +47,6 @@ while i < length:
 
 print(int(result))
 """
-
 
 number = int(input())
 

@@ -33,6 +33,7 @@
 Требуется вывести одно натуральное число — НОК двух данных чисел.
 """
 
+
 number_1 = number_1_initial = int(input())
 number_2 = number_2_initial = int(input())
 
