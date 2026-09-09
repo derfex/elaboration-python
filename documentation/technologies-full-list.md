@@ -112,8 +112,6 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `str(42)`
 
-- `'str str'.split('str')`
-
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
@@ -122,6 +120,10 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `max('str', 'str')`
 - `min('str', 'str')`
+
+##### Strings methods
+
+- `'str str'.split('str')`
 
 #### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
 

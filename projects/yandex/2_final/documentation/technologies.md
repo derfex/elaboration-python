@@ -50,6 +50,8 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 ##### `str`
 
+##### Strings methods
+
 - `'str str'.split('str')`
 
 #### Conditions

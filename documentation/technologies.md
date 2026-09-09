@@ -103,8 +103,6 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `str(42)`
 
-- `'str str'.split('str')`
-
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
@@ -112,6 +110,10 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str' in 'str'`
 
 - `min('str', 'str')`
+
+##### Strings methods
+
+- `'str str'.split('str')`
 
 #### Conditions
 
