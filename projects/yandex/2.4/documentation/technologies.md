@@ -71,13 +71,13 @@ Doc: `class tuple(iterable=(), /)`.
   - `f'{string_value:^{length}}'`
   - `f'{string_value:>{length}}'`
 
-##### `str`
-
-- `str(42)`
-
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
+
+##### `str`
+
+- `str(42)`
 
 #### Conditions
 

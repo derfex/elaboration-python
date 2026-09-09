@@ -106,6 +106,11 @@ Doc: `class tuple(iterable=(), /)`.
     """
     ```
 
+##### String comparison
+
+- `'str' == 'str'`, `'str' != 'str'`
+- `'str' > 'str'`, `'str' < 'str'`
+
 - `chr(42)`
 - `ord('ё')`
 - `len('str')`
@@ -113,11 +118,6 @@ Doc: `class tuple(iterable=(), /)`.
 ##### `str`
 
 - `str(42)`
-
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
 
 - `max('str', 'str')`
 - `min('str', 'str')`
