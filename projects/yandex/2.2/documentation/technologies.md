@@ -58,13 +58,14 @@
   - `f'{string_value:^{length}}'`
   - `f'{string_value:>{length}}'`
 
-##### String comparison
+###### Strings comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
 - `'str' > 'str'`, `'str' < 'str'`
 
-- `len('str')`
+##### Strings functions
 
+- `len('str')`
 - `min('str', 'str')`
 
 #### Conditions

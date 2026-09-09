@@ -71,7 +71,7 @@ Doc: `class tuple(iterable=(), /)`.
   - `f'{string_value:^{length}}'`
   - `f'{string_value:>{length}}'`
 
-##### String comparison
+###### Strings comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
 

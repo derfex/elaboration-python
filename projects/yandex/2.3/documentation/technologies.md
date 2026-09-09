@@ -72,14 +72,16 @@ Doc: `class tuple(iterable=(), /)`.
 - `f''`
   - `f'{string_value}'`
 
-##### String comparison
+###### Strings comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
 
+##### Strings functions
+
 - `chr(42)`
 - `ord('ё')`
-- `len('str')`
 
+- `len('str')`
 - `min('str', 'str')`
 
 #### Conditions
