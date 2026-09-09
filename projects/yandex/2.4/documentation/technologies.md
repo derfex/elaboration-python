@@ -12,7 +12,7 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -24,14 +24,14 @@
 - `num -= 42`
 - `num //= 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### Number functions
+##### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
@@ -54,29 +54,30 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Text Sequence Type — `str`
 
-- `'str' + 'ing'`
-- `'str' * 42`
-- `variable += 'str'`
+- `string_value_1 + string_value_2`
+- `string_value * 42`
+- `string_variable += string_value`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
+
+###### Strings comparison
+
+- `'str' == 'str'`, `'str' != 'str'`
 
 ##### `str`
 
 - `str(42)`
-
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-
-#### Set Types — `set`, `frozenset`
-
-##### `set`
-
-- `variable_1, variable_2 = expression_1, expression_2`
 
 #### Conditions
 
@@ -84,7 +85,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`

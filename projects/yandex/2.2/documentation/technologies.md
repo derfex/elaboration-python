@@ -11,7 +11,7 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -23,7 +23,7 @@
 - `num -= 42`
 - `num *= 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -33,7 +33,7 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
-##### Number functions
+##### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
@@ -49,21 +49,24 @@
 
 #### Text Sequence Type — `str`
 
-- `'str' * 42`
+- `string_value * 42`
+
+- `string_value_1 in string_value_2`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
 
-- `len('str')`
-
-##### String comparison
+###### Strings comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
 - `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
 
-- `min('str', 'str')`
+##### Strings functions
+
+- `len(string_value)`
+- `min(string_value_1, string_value_2)`
 
 #### Conditions
 

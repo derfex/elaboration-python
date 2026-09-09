@@ -11,7 +11,7 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -24,14 +24,14 @@
 - `num *= 42`
 - `num //= 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### Number functions
+##### Numbers functions
 
 - `max(42, 4.2)`
 
@@ -52,31 +52,37 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Text Sequence Type — `str`
 
-- `variable += 'str'`
-- `f''`
-  - `f'{var}'`
+- `string_value[index]`, `string_value[-index]`
+- `string_value[i:j]`, `string_value[i:j:k]`
 
-- `str[42]`, `str[-1]`
-- `str[42:42]`
+##### Strings operations
+
+- `string_variable += string_value`
+
+- `string_value_1 in string_value_2`
+
+- `f''`
+  - `f'{string_value}'`
+
+###### Strings comparison
+
+- `'str' == 'str'`, `'str' != 'str'`
+
+##### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
-- `len('str')`
 
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' in 'str'`
-
-- `min('str', 'str')`
-
-#### Set Types — `set`, `frozenset`
-
-##### `set`
-
-- `variable_1, variable_2 = expression_1, expression_2`
+- `len(string_value)`
+- `min(string_value_1, string_value_2)`
 
 #### Conditions
 
@@ -87,7 +93,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 

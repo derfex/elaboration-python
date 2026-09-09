@@ -13,7 +13,7 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -27,7 +27,7 @@
 - `num *= 42`
 - `num //= 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -37,7 +37,7 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
-##### Number functions
+##### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
@@ -86,59 +86,65 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 Doc: `class tuple(iterable=(), /)`.
 
+- `variable_1, variable_2 = expression_1, expression_2`
+- `variable_1, variable_2, variable_3 = 'str'`
+
+##### Tuples operations
+
 - `42 in (42, 4.2)`, `42 not in (42, 4.2)`
 
 #### Text Sequence Type — `str`
 
-- `'str' + 'ing'`
-- `'str' * 42`
-- `variable += 'str'`
+- `string_value[index]`, `string_value[-index]`
+- `string_value[i:j]`, `string_value[i:j:k]`
+
+##### Strings operations
+
+- `string_value_1 + string_value_2`
+- `string_value * 42`
+- `string_variable += string_value`
+
+- `string_value_1 in string_value_2`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:02d}'`
-  - `f'{var:.2f}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:02d}'`
+  - `f'{string_value:.2f}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
   - ```python
     f"""\
     """
     ```
 
-- `str[42]`, `str[-1]`
-- `str[42:42]`
+###### Strings comparison
+
+- `'str' == 'str'`, `'str' != 'str'`
+- `'str' > 'str'`, `'str' < 'str'`
+
+##### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
-- `len('str')`
+
+- `len(string_value)`
+- `min(string_value_1, string_value_2)`
 
 ##### `str`
 
 - `str(42)`
 
-- `'str str'.count('str')`
-- `'str str'.endswith('str')`
-- `'str str'.find('str')`
-- `'str str'.join(['str', 'str'])`
-- `'str str'.lower()`
-- `'str str'.rstrip('str')`
-- `'str str'.split('str')`
-- `'str str'.startswith('str')`
-- `'str str'.upper()`
+##### Strings methods
 
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
-
-- `min('str', 'str')`
-
-#### Set Types — `set`, `frozenset`
-
-##### `set`
-
-- `variable_1, variable_2 = expression_1, expression_2`
-- `variable_1, variable_2, variable_3 = 'str'`
+- `string_value_1.count(string_value_2)`
+- `string_value_1.endswith(string_value_2)`
+- `string_value_1.find(string_value_2)`
+- `string_value_1.join([string_value_2, string_value_3])` // TODO: list or iterable?
+- `string_value_1.lower()`
+- `string_value_1.rstrip(string_value_2)`
+- `string_value_1.split(string_value_2)`
+- `string_value_1.startswith(string_value_2)`
+- `string_value_1.upper()`
 
 #### Conditions
 
@@ -151,7 +157,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`

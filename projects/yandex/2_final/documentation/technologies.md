@@ -12,19 +12,19 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 * 42`
 - `42 / 42`
 - `num += 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### Number functions
+##### Numbers functions
 
 - `min(42, 4.2)`
 
@@ -46,11 +46,13 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 #### Text Sequence Type — `str`
 
 - `f''`
-  - `f'{var}'`
+  - `f'{string_value}'`
 
 ##### `str`
 
-- `'str str'.split('str')`
+##### Strings methods
+
+- `string_value_1.split(string_value_2)`
 
 #### Conditions
 
@@ -59,7 +61,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `break`
 
 #### Other
