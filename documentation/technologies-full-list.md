@@ -124,16 +124,16 @@ Doc: `class tuple(iterable=(), /)`.
 - `variable_1, variable_2 = expression_1, expression_2`
 - `variable_1, variable_2, variable_3 = 'str'`
 
-- `tuple_variable_1 + tuple_variable_2`
-- `tuple_variable * 42`
+- `tuple_value_1 + tuple_value_2`
+- `tuple_value * 42`
 
-- `variable in tuple_variable`, `variable not in tuple_variable`
+- `value in tuple_value`, `value not in tuple_value`
 
 ###### Tuples functions
 
-- `len(tuple_variable)`
-- `max(tuple_variable)`
-- `min(tuple_variable)`
+- `len(tuple_value)`
+- `max(tuple_value)`
+- `min(tuple_value)`
 
 #### Text Sequence Type — `str`
 
