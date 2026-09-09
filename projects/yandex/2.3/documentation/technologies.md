@@ -68,6 +68,12 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `min('str', 'str')`
 
+#### Set Types — `set`, `frozenset`
+
+##### `set`
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
@@ -84,4 +90,3 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 #### Other
 
 - `variable := expression`
-- `number_1, number_2 = expression_1, expression_2`

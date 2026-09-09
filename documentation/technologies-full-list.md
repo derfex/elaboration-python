@@ -139,6 +139,12 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Set Types — `set`, `frozenset`
 
+##### `set`
+
+- `set(iterable_variable)`
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Mapping Types — `dict`
 
 #### Conditions
@@ -164,7 +170,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `map()`
 - `a, b = <map object>`
 - `[a, b, c] = 'str'`
-- `number_1, number_2 = expression_1, expression_2`
 
 #### Comments
 

@@ -129,6 +129,12 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `min('str', 'str')`
 
+#### Set Types — `set`, `frozenset`
+
+##### `set`
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
@@ -151,7 +157,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `map()`
 - `a, b = <map object>`
 - `[a, b, c] = 'str'`
-- `number_1, number_2 = expression_1, expression_2`
 
 #### Comments
 
