@@ -78,6 +78,9 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
 
+- `variable_1, variable_2 = expression_1, expression_2`
+- `variable_1, variable_2, variable_3 = 'str'`
+
 #### Text Sequence Type — `str`
 
 - `'str' + 'ing'`
@@ -123,10 +126,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### `set`
 
-- `set(iterable_variable)`
-
-- `variable_1, variable_2 = expression_1, expression_2`
-- `variable_1, variable_2, variable_3 = 'str'`
+- `set(iterable_value)`
 
 #### Mapping Types — `dict`
 

@@ -52,6 +52,12 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Text Sequence Type — `str`
 
 - `variable += 'str'`
@@ -71,12 +77,6 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 - `'str' in 'str'`
 
 - `min('str', 'str')`
-
-#### Set Types — `set`, `frozenset`
-
-##### `set`
-
-- `variable_1, variable_2 = expression_1, expression_2`
 
 #### Conditions
 

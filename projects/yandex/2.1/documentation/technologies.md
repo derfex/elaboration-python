@@ -26,6 +26,12 @@
   - `int('42')`
   - `int('101', 2)`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+- `variable_1, variable_2, variable_3 = 'str'`
+
 #### Text Sequence Type — `str`
 
 - `'str' + 'ing'`
@@ -43,9 +49,3 @@
 ##### `str`
 
 - `str(42)`
-
-#### Set Types — `set`, `frozenset`
-
-##### `set`
-
-- `variable_1, variable_2, variable_3 = 'str'`
