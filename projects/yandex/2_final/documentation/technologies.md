@@ -12,19 +12,19 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 * 42`
 - `42 / 42`
 - `num += 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### Number functions
+##### Numbers functions
 
 - `min(42, 4.2)`
 

@@ -11,7 +11,7 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -23,7 +23,7 @@
 - `num -= 42`
 - `num *= 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -33,7 +33,7 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
-##### Number functions
+##### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
