@@ -99,7 +99,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Tuples operations
 
-- `42 in (42, 4.2)`, `42 not in (42, 4.2)`
+- `value in tuple_value`, `value not in tuple_value`
 
 #### Text Sequence Type — `str`
 
