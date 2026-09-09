@@ -62,6 +62,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
+##### Strings operations
+
 - `string_value_1 + string_value_2`
 - `string_value * 42`
 - `string_variable += string_value`

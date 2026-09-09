@@ -45,6 +45,8 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 #### Text Sequence Type — `str`
 
+##### Strings operations
+
 - `f''`
   - `f'{string_value}'`
 

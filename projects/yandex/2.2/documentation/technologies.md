@@ -49,6 +49,8 @@
 
 #### Text Sequence Type — `str`
 
+##### Strings operations
+
 - `string_value * 42`
 
 - `string_value_1 in string_value_2`

@@ -108,8 +108,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Strings comparison
 
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
+- `string_value_1 > string_value_2`, `string_value_1 < string_value_2`
 
 ##### Strings functions
 
