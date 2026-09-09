@@ -88,9 +88,13 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str' == 'str'`, `'str' != 'str'`
 - `'str' in 'str'`
 
+##### Strings functions
+
 - `chr(42)`
 - `ord('ё')`
+
 - `len('str')`
+- `min('str', 'str')`
 
 ##### `str`
 
@@ -105,8 +109,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str str'.split('str')`
 - `'str str'.startswith('str')`
 - `'str str'.upper()`
-
-- `min('str', 'str')`
 
 #### Conditions
 
