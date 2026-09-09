@@ -51,6 +51,8 @@
 
 - `'str' * 42`
 
+- `'str' in 'str'`
+
 - `f''`
   - `f'{string_value}'`
   - `f'{string_value:^{length}}'`
@@ -62,7 +64,6 @@
 
 - `'str' == 'str'`, `'str' != 'str'`
 - `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
 
 - `min('str', 'str')`
 

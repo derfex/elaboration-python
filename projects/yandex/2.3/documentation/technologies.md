@@ -67,6 +67,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `variable += 'str'`
 
+- `'str' in 'str'`
+
 - `f''`
   - `f'{string_value}'`
 
@@ -77,7 +79,6 @@ Doc: `class tuple(iterable=(), /)`.
 ##### String comparison
 
 - `'str' == 'str'`, `'str' != 'str'`
-- `'str' in 'str'`
 
 - `min('str', 'str')`
 

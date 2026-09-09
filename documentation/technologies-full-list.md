@@ -92,6 +92,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str' * 42`
 - `variable += 'str'`
 
+- `'str' in 'str'`
+
 - `f''`
   - `f'{string_value}'`
   - `f'{string_value:02d}'`
@@ -116,7 +118,6 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `'str' == 'str'`, `'str' != 'str'`
 - `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
 
 - `max('str', 'str')`
 - `min('str', 'str')`
