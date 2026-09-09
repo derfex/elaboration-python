@@ -83,19 +83,19 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `string_value_1 + string_value_2`
 
-- `'str' in 'str'`
+- `string_value_1 in string_value_2`
 
 ###### Strings comparison
 
-- `'str' == 'str'`, `'str' != 'str'`
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
 ##### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
 
-- `len('str')`
-- `min('str', 'str')`
+- `len(string_value)`
+- `min(string_value_1, string_value_2)`
 
 ##### `str`
 
