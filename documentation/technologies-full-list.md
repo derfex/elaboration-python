@@ -114,17 +114,28 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `str(42)`
 
+- `'str str'.capitalize()`
 - `'str str'.count('str')`
 - `'str str'.endswith('str')`
 - `'str str'.find('str')`
 - `'str str'.index('str')`
+- `'str str'.isalnum()`
+- `'str str'.isalpha()`
+- `'str str'.isdigit()`
+- `'str str'.islower()`
+- `'str str'.isupper()`
 - `'str str'.join(['str', 'str'])`
+- `'str str'.ljust(width, fillchar)`
 - `'str str'.lower()`
 - `'str str'.lstrip('str')`
+- `'str str'.rjust(width, fillchar)`
 - `'str str'.rstrip('str')`
 - `'str str'.split('str')`
 - `'str str'.startswith('str')`
+- `'str str'.strip('str')`
+- `'str str'.title()`
 - `'str str'.upper()`
+- `'str str'.zfill(42)`
 
 ##### String comparison
 
