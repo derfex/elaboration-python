@@ -134,31 +134,48 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
+- `string_variable[index]`, `string_variable[-index]`
+- `string_variable[i:j]`, `string_variable[i:j:k]`
+
+##### Strings operations
+
 - `'str' + 'ing'`
 - `'str' * 42`
-- `variable += 'str'`
+- `string_variable += 'str'`
+
+- `'str' in string_variable`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:02d}'`
-  - `f'{var:.2f}'`
-  - `f'{var:<{length}}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_variable}'`
+  - `f'{string_variable:02d}'`
+  - `f'{string_variable:.2f}'`
+  - `f'{string_variable:<{length}}'`
+  - `f'{string_variable:^{length}}'`
+  - `f'{string_variable:>{length}}'`
   - ```python
     f"""\
     """
     ```
 
-- `str[42]`, `str[-1]`
-- `str[42:42]`
+###### Strings comparison
+
+- `'str' == 'str'`, `'str' != 'str'`
+- `'str' > 'str'`, `'str' < 'str'`
+
+##### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
-- `len('str')`
+
+- `len(string_variable)`
+- `max(string_variable_1, string_variable_2)`
+- `min(string_variable_1, string_variable_2)`
 
 ##### `str`
 
 - `str(42)`
+
+##### Strings methods
 
 - `'str str'.capitalize()`
 - `'str str'.count('str')`
@@ -182,15 +199,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str str'.title()`
 - `'str str'.upper()`
 - `'str str'.zfill(42)`
-
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
-
-- `max('str', 'str')`
-- `min('str', 'str')`
 
 #### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
 
