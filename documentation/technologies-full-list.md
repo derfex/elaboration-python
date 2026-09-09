@@ -68,13 +68,36 @@ Doc: `class list(iterable=(), /)`.
 
 - `[42][0]`
 
-- `[42].append(42)`
-- `[42].index(42)`
-- `[42].pop()`
+###### List operations
+
+- `[42] + [42]`
+- `[42] * 42`
+- `list_variable += [42]`
 
 - `42 in [42, 4.2]`, `42 not in [42, 4.2]`
+
+- `del list_variable[42]`
+- `del list_variable[::42]`
+
+###### List methods
+
+- `[42].append(42)`
+- `[42].clear()`
+- `[42].count(42)`
+- `[42].extend(42)`
+- `[42].index(42)`
+- `[42].insert(42, 42)`
+- `[42].pop()`
+- `[42].remove(42)`
+- `[42].reverse()`
+- `[42].sort()`
+
+###### List functions
+
 - `len([42])`
 - `max([42, 4.2])`
+- `min([42, 4.2])`
+- `sorted([42, 4.2])`
 
 ##### `range`
 
