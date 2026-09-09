@@ -207,6 +207,25 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Set Types — `set`, `frozenset`
 
+##### Sets operations
+
+- `*set_variable`
+
+- `set_value_1 & set_value_2`
+- `set_value_1 | set_value_2`
+- `set_variable |= set_value`
+
+##### Sets functions
+
+##### Sets methods
+
+- `set_variable.intersection(set_value)`
+- `set_variable.union(set_value)`
+
+##### `frozenset`
+
+- `frozenset(iterable_value)`
+
 ##### `set`
 
 - `set(iterable_value)`
