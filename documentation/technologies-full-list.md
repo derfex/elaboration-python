@@ -122,6 +122,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `set(iterable_variable)`
 
 - `variable_1, variable_2 = expression_1, expression_2`
+- `variable_1, variable_2, variable_3 = 'str'`
 
 #### Mapping Types — `dict`
 
@@ -146,7 +147,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `variable := expression`
 - `map()`
 - `a, b = <map object>`
-- `[a, b, c] = 'str'`
 
 #### Comments
 
