@@ -80,11 +80,11 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings operations
 
-- `'str' + 'ing'`
-- `'str' * 42`
-- `variable += 'str'`
+- `string_value_1 + string_value_2`
+- `string_value * 42`
+- `string_variable += string_value`
 
-- `'str' in 'str'`
+- `string_value_1 in string_value_2`
 
 - `f''`
   - `f'{string_value}'`

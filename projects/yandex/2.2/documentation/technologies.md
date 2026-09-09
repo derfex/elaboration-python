@@ -49,9 +49,9 @@
 
 #### Text Sequence Type — `str`
 
-- `'str' * 42`
+- `string_value * 42`
 
-- `'str' in 'str'`
+- `string_value_1 in string_value_2`
 
 - `f''`
   - `f'{string_value}'`

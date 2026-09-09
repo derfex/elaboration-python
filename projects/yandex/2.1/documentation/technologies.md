@@ -34,8 +34,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
-- `'str' + 'ing'`
-- `'str' * 42`
+- `string_value_1 + string_value_2`
+- `string_value * 42`
 
 - `f''`
   - `f'{string_value}'`

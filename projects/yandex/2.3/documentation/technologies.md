@@ -65,9 +65,9 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings operations
 
-- `variable += 'str'`
+- `string_variable += string_value`
 
-- `'str' in 'str'`
+- `string_value_1 in string_value_2`
 
 - `f''`
   - `f'{string_value}'`
