@@ -11,7 +11,7 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
-##### Number operations
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -22,7 +22,7 @@
 - `num += 42`
 - `num *= 42`
 
-###### Number comparison
+###### Numbers comparison
 
 - `42 != 42`
 - `42 >= 42`, `42 <= 42`
@@ -39,7 +39,7 @@ Doc: `class list(iterable=(), /)`.
 
 - `list()`
 
-- `[42][0]`
+- `list_value[index]`, `list_value[-index]`
 
 ###### List operations
 
@@ -69,6 +69,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `42 in (42, 4.2)`, `42 not in (42, 4.2)`
 
 #### Text Sequence Type — `str`
+
+##### Strings operations
 
 - `'str' + 'ing'`
 
@@ -116,7 +118,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`
