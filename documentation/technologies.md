@@ -134,6 +134,7 @@ Doc: `class tuple(iterable=(), /)`.
 ##### `set`
 
 - `variable_1, variable_2 = expression_1, expression_2`
+- `variable_1, variable_2, variable_3 = 'str'`
 
 #### Conditions
 
@@ -156,7 +157,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `variable := expression`
 - `map()`
 - `a, b = <map object>`
-- `[a, b, c] = 'str'`
 
 #### Comments
 

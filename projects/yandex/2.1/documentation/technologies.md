@@ -42,6 +42,8 @@
 
 - `str(42)`
 
-#### Other
+#### Set Types — `set`, `frozenset`
 
-- `[a, b, c] = 'str'`
+##### `set`
+
+- `variable_1, variable_2, variable_3 = 'str'`

@@ -37,6 +37,6 @@
 
 number = input()
 
-[a, b, c, d] = str(number)
+a, b, c, d = str(number)
 
 print(int(b + a + d + c))

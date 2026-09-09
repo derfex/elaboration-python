@@ -50,7 +50,7 @@
 child_name = input()
 locker_number = int(input())
 
-# [group_number, crib_number, child_number] = str(locker_number)
+# group_number, crib_number, child_number = str(locker_number)
 group_number = locker_number // 100
 crib_number = locker_number // 10 % 10
 child_number = locker_number % 10
