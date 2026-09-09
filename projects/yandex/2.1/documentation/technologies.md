@@ -36,11 +36,12 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `'str' + 'ing'`
 - `'str' * 42`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:02d}'`
-  - `f'{var:.2f}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:02d}'`
+  - `f'{string_value:.2f}'`
+  - `f'{string_value:>{length}}'`
   - ```python
     f"""\
     """

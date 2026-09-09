@@ -50,10 +50,11 @@
 #### Text Sequence Type — `str`
 
 - `'str' * 42`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
 
 - `len('str')`
 

@@ -46,7 +46,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 #### Text Sequence Type — `str`
 
 - `f''`
-  - `f'{var}'`
+  - `f'{string_value}'`
 
 ##### `str`
 

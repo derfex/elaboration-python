@@ -65,10 +65,11 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str' + 'ing'`
 - `'str' * 42`
 - `variable += 'str'`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
 
 ##### `str`
 
