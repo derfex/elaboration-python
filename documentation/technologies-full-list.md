@@ -116,9 +116,9 @@ Doc: `class tuple(iterable=(), /)`.
 - `chr(42)`
 - `ord('ё')`
 
-- `len('str')`
-- `max('str', 'str')`
-- `min('str', 'str')`
+- `len(string_value)`
+- `max(string_value_1, string_value_2)`
+- `min(string_value_1, string_value_2)`
 
 ##### `str`
 
