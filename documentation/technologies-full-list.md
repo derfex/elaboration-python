@@ -83,8 +83,10 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
-- `str[42]`, `str[-1]`
-- `str[42:42]`
+- `string_value[index]`, `string_value[-index]`
+- `string_value[i:j]`, `string_value[i:j:k]`
+
+##### Strings operations
 
 - `'str' + 'ing'`
 - `'str' * 42`
