@@ -12,10 +12,19 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
+##### Number operations
+
 - `42 + 42`
 - `42 * 42`
 - `42 / 42`
 - `num += 42`
+
+###### Number comparison
+
+- `42 > 42`, `42 < 42`
+- `42 >= 42`, `42 <= 42`
+
+##### Number functions
 
 - `min(42, 4.2)`
 
@@ -25,11 +34,6 @@
 
 - `int()`
   - `int('42')`
-
-##### Number comparison
-
-- `42 > 42`, `42 < 42`
-- `42 >= 42`, `42 <= 42`
 
 #### Sequence Types — `list`, `tuple`, `range`
 

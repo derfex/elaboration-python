@@ -11,6 +11,8 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
+##### Number operations
+
 - `42 + 42`
 - `42 - 42`
 - `42 * 42`
@@ -22,23 +24,25 @@
 - `num *= 42`
 - `num //= 42`
 
-- `max(42, 4.2)`
-
-##### `int`
-
-- `int()`
-  - `int('42')`
-
-##### `float`
-
-- `float('4.2')`
-
-##### Number comparison
+###### Number comparison
 
 - `42 == 42`
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
+
+##### Number functions
+
+- `max(42, 4.2)`
+
+##### `float`
+
+- `float('4.2')`
+
+##### `int`
+
+- `int()`
+  - `int('42')`
 
 #### Sequence Types — `list`, `tuple`, `range`
 
