@@ -42,13 +42,13 @@
 """
 
 
-dishes = [
+dishes = (
     'Манная',
     'Гречневая',
     'Пшённая',
     'Овсяная',
     'Рисовая',
-]
+)
 dishes_length = len(dishes)
 
 quantity = int(input())
