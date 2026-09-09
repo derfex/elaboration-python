@@ -71,6 +71,8 @@ Doc: `class list(iterable=(), /)`.
 - `list_value[index]`, `list_value[-index]`
 - `list_value[i:j]`, `list_value[i:j:k]`
 
+- `*list_value`
+
 ###### Lists operations
 
 - `list_value_1 + list_value_2`
@@ -207,19 +209,27 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Set Types — `set`, `frozenset`
 
-##### Sets operations
+##### Common sets operations
 
 - `*set_variable`
 
 - `set_value_1 & set_value_2`
 - `set_value_1 | set_value_2`
+- `set_value_1 - set_value_2`
+- `set_value_1 ^ set_value_2`
 - `set_variable |= set_value`
 
-##### Sets functions
+- `value in set_value`, `value not in set_value`
 
-##### Sets methods
+##### Common sets functions
 
+- `len(set_value)`
+
+##### Common sets methods
+
+- `set_variable.difference(set_value)`
 - `set_variable.intersection(set_value)`
+- `set_variable.symmetric_difference(set_value)`
 - `set_variable.union(set_value)`
 
 ##### `frozenset`
