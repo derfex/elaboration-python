@@ -66,38 +66,41 @@ Doc: `class list(iterable=(), /)`.
 
 - `list()`
 
-- `[42][0]`
+- `[42]`, `[42, 4.2]`
+
+- `list_variable[index]`, `list_variable[-index]`
+- `list_variable[i:j]`, `list_variable[i:j:k]`
 
 ###### Lists operations
 
-- `[42] + [42]`
-- `[42] * 42`
-- `list_variable += [42]`
+- `list_variable_1 + list_variable_2`
+- `list_variable * 42`
+- `list_variable_1 += list_variable_2`
 
-- `42 in [42, 4.2]`, `42 not in [42, 4.2]`
+- `variable in list_variable`, `variable not in list_variable`
 
-- `del list_variable[42]`
-- `del list_variable[::42]`
+- `del list_variable[index]`
+- `del list_variable[i:j:k]`
 
 ###### Lists methods
 
-- `[42].append(42)`
-- `[42].clear()`
-- `[42].count(42)`
-- `[42].extend(42)`
-- `[42].index(42)`
-- `[42].insert(42, 42)`
-- `[42].pop()`
-- `[42].remove(42)`
-- `[42].reverse()`
-- `[42].sort()`
+- `list_variable.append(variable)`
+- `list_variable.clear()`
+- `list_variable.count(variable)`
+- `list_variable.extend(variable)`
+- `list_variable.index(variable)`
+- `list_variable.insert(index, variable)`
+- `list_variable.pop()`
+- `list_variable.remove(variable)`
+- `list_variable.reverse()`
+- `list_variable.sort()`
 
 ###### Lists functions
 
-- `len([42])`
-- `max([42, 4.2])`
-- `min([42, 4.2])`
-- `sorted([42, 4.2])`
+- `len(list_variable)`
+- `max(list_variable)`
+- `min(list_variable)`
+- `sorted(list_variable)`
 
 ##### `range`
 
@@ -111,7 +114,23 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
 
-- `42 in (42, 4.2)`, `42 not in (42, 4.2)`
+- `(42, )`, `(42, 4.2)`
+
+- `tuple_variable[index]`, `tuple_variable[-index]`
+- `tuple_variable[i:j]`, `tuple_variable[i:j:k]`
+
+###### Tuples operations
+
+- `tuple_variable_1 + tuple_variable_2`
+- `tuple_variable * 42`
+
+- `variable in tuple_variable`, `variable not in tuple_variable`
+
+###### Tuples functions
+
+- `len(tuple_variable)`
+- `max(tuple_variable)`
+- `min(tuple_variable)`
 
 #### Text Sequence Type — `str`
 
