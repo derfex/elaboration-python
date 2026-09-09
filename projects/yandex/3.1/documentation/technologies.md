@@ -70,6 +70,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Tuples operations
 
+- `variable_1, variable_2 = expression_1, expression_2`
+
 - `value in tuple_value`, `value not in tuple_value`
 
 #### Text Sequence Type — `str`
@@ -105,12 +107,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `'str str'.upper()`
 
 - `min('str', 'str')`
-
-#### Set Types — `set`, `frozenset`
-
-##### `set`
-
-- `variable_1, variable_2 = expression_1, expression_2`
 
 #### Conditions
 
