@@ -62,6 +62,16 @@ Doc: `class list(iterable=(), /)`.
 
 - `list()`
 
+- `[42][0]`
+
+- `[42].append(42)`
+- `[42].index(42)`
+- `[42].pop()`
+
+- `42 in [42, 4.2]`, `42 not in [42, 4.2]`
+- `len([42])`
+- `max([42, 4.2])`
+
 ##### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
@@ -73,6 +83,8 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
+
+- `42 in {42, 4.2}`, `42 not in {42, 4.2}`
 
 #### Text Sequence Type — `str`
 
@@ -102,7 +114,17 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `str(42)`
 
+- `'str str'.count('str')`
+- `'str str'.endswith('str')`
+- `'str str'.find('str')`
+- `'str str'.index('str')`
+- `'str str'.join(['str', 'str'])`
+- `'str str'.lower()`
+- `'str str'.lstrip('str')`
+- `'str str'.rstrip('str')`
 - `'str str'.split('str')`
+- `'str str'.startswith('str')`
+- `'str str'.upper()`
 
 ##### String comparison
 
@@ -123,6 +145,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `if condition:`, `elif condition:`, `else:`
 - `match subject_expression:`, `case value:`
+- `match … case variable if expression:`
 - `condition_1 and condition_2`
 - `condition_1 or condition_2`
 - `not condition`
