@@ -85,6 +85,9 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `string_variable += string_value`
 
+- `f''`
+  - `f'{string_value}'`
+
 ###### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
@@ -138,9 +141,15 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `immutable_key in dict_value`, `immutable_key not in dict_value`
 
+##### Dicts functions
+
+- `len(dict_value)`
+
 ##### Dicts methods
 
 - `dict_value.items()`
+- `dict_value.keys()`
+- `dict_value.values()`
 
 #### Conditions
 
@@ -155,3 +164,4 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `variable := expression`
+- `sum(iterable_value)`

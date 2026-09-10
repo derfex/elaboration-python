@@ -312,6 +312,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `variable := expression`
 - `map()`
 - `a, b = <map object>`
+- `sum(iterable_value)`
 
 #### Comments
 
