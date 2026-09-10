@@ -257,6 +257,32 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Mapping Types — `dict`
 
+- `dict()`
+
+- `{'immutable_key_1': value_1, 'immutable_key_2': value_2}`
+
+- `dict_value[immutable_key]`
+
+##### Dicts operations
+
+- `immutable_key in dict_value`, `immutable_key not in dict_value`
+
+- `del dict_value[immutable_key]`
+
+##### Dicts functions
+
+- `len(dict_value)`
+
+##### Dicts methods
+
+- `dict_value.clear()`
+- `dict_value.get(immutable_key, default_value)`
+- `dict_value.pop(immutable_key, default_value)`
+
+- `dict_value.items()`
+- `dict_value.keys()`
+- `dict_value.values()`
+
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
