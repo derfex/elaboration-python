@@ -17,7 +17,9 @@
 
 - `42 + 42`
 - `42 - 42`
+- `42 % 42`
 - `num += 42`
+- `num //= 42`
 
 ###### Numbers comparison
 
@@ -168,4 +170,6 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `variable := expression`
+- `map()`
+- `a, b = <map object>`
 - `sum(iterable_value)`
