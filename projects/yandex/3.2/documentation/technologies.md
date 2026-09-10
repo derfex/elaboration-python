@@ -30,6 +30,8 @@
 
 #### Boolean Type — `bool`
 
+- `False`, `True`
+
 #### Sequence Types — `list`, `tuple`, `range`
 
 ##### `list`
@@ -106,6 +108,7 @@ Doc: `class tuple(iterable=(), /)`.
 ##### Common sets operations
 
 - `set_value_1 & set_value_2`
+- `set_value_1 - set_value_2`
 - `set_value_1 ^ set_value_2`
 - `set_variable |= set_value`
 
@@ -154,6 +157,7 @@ Doc: `class tuple(iterable=(), /)`.
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
+- `not condition`
 
 #### Loops
 
