@@ -16,6 +16,8 @@
 ##### Numbers operations
 
 - `42 + 42`
+- `42 - 42`
+- `num += 42`
 
 ###### Numbers comparison
 
@@ -40,6 +42,8 @@ Doc: `class list(iterable=(), /)`.
 
 - `list_value[index]`, `list_value[-index]`
 
+###### Lists operations
+
 - `*list_value`
 
 ###### Lists functions
@@ -57,10 +61,38 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+- `tuple()`
+
+- `tuple_variable[index]`, `tuple_variable[-index]`
+
+###### Tuples operations
+
+- `variable_1, variable_2 = tuple_value`
+
+###### Tuples functions
+
+- `enumerate(tuple_value)`
+
+- `len(tuple_value)`
+
 #### Text Sequence Type — `str`
+
+##### Strings operations
+
+- `string_variable += string_value`
+
+###### Strings comparison
+
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
 ##### Strings methods
 
+- `string_value_1.islower()`
+- `string_value_1.lower()`
 - `string_value_1.split(string_value_2)`
 - `string_value_1.upper()`
 
@@ -106,6 +138,10 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `immutable_key in dict_value`, `immutable_key not in dict_value`
 
+##### Dicts methods
+
+- `dict_value.items()`
+
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
@@ -113,6 +149,9 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 #### Loops
 
 - `for variable in iterable_value:`
+- `while condition:`
 - `continue`
 
 #### Other
+
+- `variable := expression`

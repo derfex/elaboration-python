@@ -86,6 +86,8 @@ Doc: `class list(iterable=(), /)`.
 
 ###### Lists functions
 
+- `enumerate(list_value)`
+
 - `len(list_value)`
 - `max(list_value)`
 - `min(list_value)`
@@ -123,6 +125,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Tuples operations
 
+- `variable_1, variable_2 = tuple_value`
 - `variable_1, variable_2 = expression_1, expression_2`
 - `variable_1, variable_2, variable_3 = 'str'`
 
@@ -132,6 +135,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `value in tuple_value`, `value not in tuple_value`
 
 ###### Tuples functions
+
+- `enumerate(tuple_value)`
 
 - `len(tuple_value)`
 - `max(tuple_value)`
@@ -171,6 +176,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `chr(42)`
 - `ord('ё')`
+
+- `enumerate(string_value)`
 
 - `len(string_value)`
 - `max(string_value_1, string_value_2)`
