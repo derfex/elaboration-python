@@ -71,8 +71,6 @@ Doc: `class list(iterable=(), /)`.
 - `list_value[index]`, `list_value[-index]`
 - `list_value[i:j]`, `list_value[i:j:k]`
 
-- `*list_value`
-
 ###### Lists operations
 
 - `list_value_1 + list_value_2`
@@ -83,6 +81,8 @@ Doc: `class list(iterable=(), /)`.
 
 - `del list_variable[index]`
 - `del list_variable[i:j:k]`
+
+- `*list_value`
 
 ###### Lists functions
 
@@ -211,8 +211,6 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Common sets operations
 
-- `*set_variable`
-
 - `set_value_1 | set_value_2`
 - `set_value_1 & set_value_2`
 - `set_value_1 - set_value_2`
@@ -220,6 +218,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `set_variable |= set_value`
 
 - `value in set_value`, `value not in set_value`
+
+- `*set_value`
 
 ###### Common sets comparison
 

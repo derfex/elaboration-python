@@ -70,13 +70,13 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 ##### Common sets operations
 
-- `*set_variable`
-
 - `set_value_1 & set_value_2`
 - `set_value_1 ^ set_value_2`
 - `set_variable |= set_value`
 
 - `value in set_value`, `value not in set_value`
+
+- `*set_value`
 
 ##### Common sets functions
 
