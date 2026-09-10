@@ -91,7 +91,7 @@ Doc: `class list(iterable=(), /)`.
 - `len(list_value)`
 - `max(list_value)`
 - `min(list_value)`
-- `sorted(list_value)`
+- `sorted(iterable_value)`
 
 ###### Lists methods
 

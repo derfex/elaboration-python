@@ -49,7 +49,7 @@ Doc: `class list(iterable=(), /)`.
 ###### Lists functions
 
 - `len(list_value)`
-- `sorted(list_value)`
+- `sorted(iterable_value)`
 
 ###### Lists methods
 
