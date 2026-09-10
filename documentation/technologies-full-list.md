@@ -213,13 +213,18 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `*set_variable`
 
-- `set_value_1 & set_value_2`
 - `set_value_1 | set_value_2`
+- `set_value_1 & set_value_2`
 - `set_value_1 - set_value_2`
 - `set_value_1 ^ set_value_2`
 - `set_variable |= set_value`
 
 - `value in set_value`, `value not in set_value`
+
+###### Common sets comparison
+
+- `set_value_1 == set_value_2`, `set_value_1 != set_value_2`
+- `set_value_1 >= set_value_2`, `set_value_1 <= set_value_2`
 
 ##### Common sets functions
 
@@ -239,6 +244,16 @@ Doc: `class tuple(iterable=(), /)`.
 ##### `set`
 
 - `set(iterable_value)`
+
+- `{value_1, value_2}`
+
+##### Sets methods
+
+- `set_variable.add(value)`
+- `set_variable.clear()`
+- `set_variable.discard(value)`
+- `set_variable.pop()`
+- `set_variable.remove(value)`
 
 #### Mapping Types — `dict`
 
