@@ -58,8 +58,7 @@ for _ in range(quantity_1 + quantity_2):
 
 symmetric_difference = kids_set_1 ^ kids_set_2
 if len(symmetric_difference) > 0:
-    kids_list = list(symmetric_difference)
-    kids_list.sort()
+    kids_list = sorted(list(symmetric_difference))
     print(*kids_list, end='', sep='\n')
 else:
     print(not_found_message)

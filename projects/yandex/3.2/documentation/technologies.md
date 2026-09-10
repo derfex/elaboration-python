@@ -38,9 +38,9 @@ Doc: `class list(iterable=(), /)`.
 
 - `*list_value`
 
-###### Lists methods
+###### Lists functions
 
-- `list_variable.sort()`
+- `sorted(list_value)`
 
 ##### `range`
 
