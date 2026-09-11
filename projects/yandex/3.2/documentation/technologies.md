@@ -23,6 +23,8 @@
 
 ###### Numbers comparison
 
+- `42 == 42`
+- `42 != 42`
 - `42 > 42`, `42 < 42`
 
 ##### `int`
@@ -58,6 +60,7 @@ Doc: `class list(iterable=(), /)`.
 ###### Lists methods
 
 - `list_variable.append(list_item_value)`
+- `list_variable.sort()`
 
 ##### `range`
 
@@ -76,6 +79,7 @@ Doc: `class tuple(iterable=(), /)`.
 ###### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
+- `variable_1, variable_2 = expression_1, expression_2`
 
 ###### Tuples functions
 
@@ -98,14 +102,17 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
+##### `str`
+
+- `str(42)`
+
 ##### Strings methods
 
 - `string_value_1.islower()`
+- `string_value_1.join([string_value_2, string_value_3])` // TODO: list or iterable?
 - `string_value_1.lower()`
 - `string_value_1.split(string_value_2)`
 - `string_value_1.upper()`
-
-#### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
 
 #### Set Types — `set`, `frozenset`
 
@@ -161,6 +168,8 @@ Doc: `class tuple(iterable=(), /)`.
 ##### Dicts methods
 
 - `dict_value.get(immutable_key, default_value)`
+- `dict_value.pop(immutable_key, default_value)`
+
 - `dict_value.items()`
 - `dict_value.keys()`
 - `dict_value.values()`
