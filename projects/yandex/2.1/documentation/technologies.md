@@ -30,7 +30,7 @@
 
 Doc: `class tuple(iterable=(), /)`.
 
-- `variable_1, variable_2, variable_3 = 'str'`
+- `variable_1, variable_2 = iterable_value`
 
 #### Text Sequence Type — `str`
 

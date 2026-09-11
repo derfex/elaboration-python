@@ -125,9 +125,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Tuples operations
 
-- `variable_1, variable_2 = tuple_value`
+- `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
-- `variable_1, variable_2, variable_3 = 'str'`
 
 - `tuple_value_1 + tuple_value_2`
 - `tuple_value * 42`

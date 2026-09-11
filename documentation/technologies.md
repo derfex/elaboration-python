@@ -96,8 +96,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Tuples operations
 
+- `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
-- `variable_1, variable_2, variable_3 = 'str'`
 
 - `value in tuple_value`, `value not in tuple_value`
 
