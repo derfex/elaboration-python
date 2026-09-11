@@ -309,9 +309,13 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `variable := expression`
+
+- `len(iterable_value)`
+- `sum(iterable_value)`
+
 - `map()`
 - `a, b = <map object>`
-- `sum(iterable_value)`
+- `max(<map object>)`
 
 #### Comments
 

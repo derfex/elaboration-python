@@ -85,6 +85,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Text Sequence Type — `str`
 
+- `string_value[i:j]`, `string_value[i:j:k]`
+
 ##### Strings operations
 
 - `string_variable += string_value`
@@ -109,6 +111,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Common sets operations
 
+- `set_value_1 | set_value_2`
 - `set_value_1 & set_value_2`
 - `set_value_1 - set_value_2`
 - `set_value_1 ^ set_value_2`
@@ -121,6 +124,11 @@ Doc: `class tuple(iterable=(), /)`.
 ##### Common sets functions
 
 - `len(set_value)`
+
+##### Common sets methods
+
+- `set_variable.difference(set_value)`
+- `set_variable.union(set_value)`
 
 ##### `frozenset`
 
@@ -152,6 +160,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Dicts methods
 
+- `dict_value.get(immutable_key, default_value)`
 - `dict_value.items()`
 - `dict_value.keys()`
 - `dict_value.values()`
@@ -170,6 +179,9 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `variable := expression`
-- `map()`
-- `a, b = <map object>`
+
+- `len(iterable_value)`
 - `sum(iterable_value)`
+
+- `map()`
+- `max(<map object>)`
