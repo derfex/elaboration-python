@@ -298,6 +298,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `condition_1 or condition_2`
 - `not condition`
 
+- `value_1 if condition else value_2`
+
 #### Loops
 
 - `for variable in iterable_value:`
@@ -305,6 +307,13 @@ Doc: `class tuple(iterable=(), /)`.
 - `break`
 - `continue`
 - `else:`
+
+#### List comprehensions
+
+- `[expression for variable in iterable_value]`
+- `[expression for variable in iterable_value if condition]`
+- `{expression for variable in iterable_value}`
+- `{expression for variable in iterable_value if condition}`
 
 #### Other
 
