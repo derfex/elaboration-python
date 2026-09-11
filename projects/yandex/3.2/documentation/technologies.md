@@ -75,7 +75,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ###### Tuples operations
 
-- `variable_1, variable_2 = tuple_value`
+- `variable_1, variable_2 = iterable_value`
 
 ###### Tuples functions
 
