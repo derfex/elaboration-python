@@ -37,12 +37,12 @@
 """
 
 
-number = int(input()) + 1
+number = int(input())
 
 if number <= 1:
     print(1)
-
-result = 2
-for i in range(3, number):
-    result *= i
-print(result)
+else:
+    result = 2
+    for i in range(3, number + 1):
+        result *= i
+    print(result)

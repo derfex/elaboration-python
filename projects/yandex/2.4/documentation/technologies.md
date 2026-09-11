@@ -8,9 +8,11 @@
 
 - `input()`
 - `print()`
-  - `print(42, 'str', end='str')`
+  - `print(value_1, value_2, end=string_value)`
 
 #### Numeric Types — `int`, `float`, `complex`
+
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -22,6 +24,15 @@
 - `num -= 42`
 - `num //= 42`
 
+###### Numbers comparison
+
+- `42 == 42`
+- `42 != 42`
+- `42 > 42`, `42 < 42`
+- `42 >= 42`, `42 <= 42`
+
+##### Numbers functions
+
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
@@ -30,13 +41,6 @@
 - `int()`
   - `int('42')`
   - `int('101', 2)`
-
-##### Number comparison
-
-- `42 == 42`
-- `42 != 42`
-- `42 > 42`, `42 < 42`
-- `42 >= 42`, `42 <= 42`
 
 #### Boolean Type — `bool`
 
@@ -50,31 +54,42 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+###### Tuples operations
+
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Text Sequence Type — `str`
 
-- `'str' + 'ing'`
-- `'str' * 42`
-- `variable += 'str'`
+##### Strings operations
+
+- `string_value_1 + string_value_2`
+- `string_value * 42`
+- `string_variable += string_value`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
+
+###### Strings comparison
+
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
 ##### `str`
 
 - `str(42)`
 
-##### String comparison
-
-- `'str' == 'str'`, `'str' != 'str'`
-
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 
-#### Cycles
+#### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`
@@ -82,4 +97,3 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 #### Other
 
 - `variable := expression`
-- `number_1, number_2 = expression_1, expression_2`

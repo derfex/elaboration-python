@@ -8,10 +8,12 @@
 
 - `input()`
 - `print()`
-  - `print(42, 'str', end='str')`
-  - `print(42, 'str', sep='str')`
+  - `print(value_1, value_2, end=string_value)`
+  - `print(value_1, value_2, sep=string_value)`
 
 #### Numeric Types — `int`, `float`, `complex`
+
+##### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -25,22 +27,7 @@
 - `num *= 42`
 - `num //= 42`
 
-- `max(42, 4.2)`
-- `min(42, 4.2)`
-
-- `round(42)`
-
-##### `int`
-
-- `int()`
-  - `int('42')`
-  - `int('101', 2)`
-
-##### `float`
-
-- `float('4.2')`
-
-##### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -49,6 +36,23 @@
 - `42 == 42 == 42`
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
+
+##### Numbers functions
+
+- `max(42, 4.2)`
+- `min(42, 4.2)`
+
+- `round(4.2)`
+
+##### `float`
+
+- `float('4.2')`
+
+##### `int`
+
+- `int()`
+  - `int('42')`
+  - `int('101', 2)`
 
 #### Boolean Type — `bool`
 
@@ -74,46 +78,70 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
 
+- `(42, )`, `(42, 4.2)`
+
+- `tuple_variable[index]`, `tuple_variable[-index]`
+- `tuple_variable[i:j]`, `tuple_variable[i:j:k]`
+
+###### Tuples operations
+
+- `variable_1, variable_2 = iterable_value`
+- `variable_1, variable_2 = expression_1, expression_2`
+
 #### Text Sequence Type — `str`
 
-- `'str' + 'ing'`
-- `'str' * 42`
-- `variable += 'str'`
+- `string_value[index]`, `string_value[-index]`
+- `string_value[i:j]`, `string_value[i:j:k]`
+
+##### Strings operations
+
+- `string_value_1 + string_value_2`
+- `string_value * 42`
+- `string_variable += string_value`
+
+- `string_value_1 in string_value_2`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:02d}'`
-  - `f'{var:.2f}'`
-  - `f'{var:<{length}}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:02d}'`
+  - `f'{string_value:.2f}'`
+  - `f'{string_value:<{length}}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
   - ```python
     f"""\
     """
     ```
 
-- `str[42]`, `str[-1]`
-- `str[42:42]`
+###### Strings comparison
+
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
+- `string_value_1 > string_value_2`, `string_value_1 < string_value_2`
+
+##### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
-- `len('str')`
+
+- `len(string_value)`
+- `max(string_value_1, string_value_2)`
+- `min(string_value_1, string_value_2)`
 
 ##### `str`
 
 - `str(42)`
 
-##### String comparison
+##### Strings methods
 
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
-
-- `max('str', 'str')`
-- `min('str', 'str')`
+- `string_value_1.split(string_value_2)`
 
 #### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
 
 #### Set Types — `set`, `frozenset`
+
+##### `set`
+
+- `set(iterable_value)`
 
 #### Mapping Types — `dict`
 
@@ -125,18 +153,18 @@ Doc: `class tuple(iterable=(), /)`.
 - `condition_1 or condition_2`
 - `not condition`
 
-#### Cycles
+#### Loops
 
-- `for variable in iterable_variable:`
+- `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`
+- `else:`
 
 #### Other
 
 - `variable := expression`
-- `[a, b, c] = 'str'`
-- `number_1, number_2 = expression_1, expression_2`
+- `map()`
 
 #### Comments
 

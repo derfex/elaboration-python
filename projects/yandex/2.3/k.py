@@ -34,6 +34,7 @@
 Требуется вывести одно натуральное число — сумму цифр исходного.
 """
 
+
 """
 number = input()
 
@@ -43,7 +44,6 @@ for digit in number:
 
 print(digits_sum)
 """
-
 
 number = int(input())
 

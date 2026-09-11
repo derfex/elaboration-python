@@ -11,6 +11,8 @@
 
 #### Numeric Types — `int`, `float`, `complex`
 
+##### Numbers operations
+
 - `42 + 42`
 - `42 - 42`
 - `42 * 42`
@@ -21,19 +23,7 @@
 - `num -= 42`
 - `num *= 42`
 
-- `max(42, 4.2)`
-- `min(42, 4.2)`
-
-##### `int`
-
-- `int()`
-  - `int('42')`
-
-##### `float`
-
-- `float('4.2')`
-
-##### Number comparison
+###### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -43,23 +33,42 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
+##### Numbers functions
+
+- `max(42, 4.2)`
+- `min(42, 4.2)`
+
+##### `float`
+
+- `float('4.2')`
+
+##### `int`
+
+- `int()`
+  - `int('42')`
+
 #### Text Sequence Type — `str`
 
-- `'str' * 42`
+##### Strings operations
+
+- `string_value * 42`
+
+- `string_value_1 in string_value_2`
+
 - `f''`
-  - `f'{var}'`
-  - `f'{var:^{length}}'`
-  - `f'{var:>{length}}'`
+  - `f'{string_value}'`
+  - `f'{string_value:^{length}}'`
+  - `f'{string_value:>{length}}'`
 
-- `len('str')`
+###### Strings comparison
 
-##### String comparison
+- `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
+- `string_value_1 > string_value_2`, `string_value_1 < string_value_2`
 
-- `'str' == 'str'`, `'str' != 'str'`
-- `'str' > 'str'`, `'str' < 'str'`
-- `'str' in 'str'`
+##### Strings functions
 
-- `min('str', 'str')`
+- `len(string_value)`
+- `min(string_value_1, string_value_2)`
 
 #### Conditions
 

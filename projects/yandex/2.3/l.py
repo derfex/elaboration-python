@@ -35,6 +35,7 @@
 Требуется вывести одно натуральное число — максимальную цифру исходного.
 """
 
+
 """
 number = input()
 
@@ -44,7 +45,6 @@ for digit in number:
 
 print(digits_max)
 """
-
 
 number = int(input())
 

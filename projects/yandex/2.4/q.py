@@ -70,6 +70,7 @@ for _ in range(quantity):
 print(palindromes_quantity)
 """
 
+
 palindromes_quantity = 0
 
 quantity = int(input())
