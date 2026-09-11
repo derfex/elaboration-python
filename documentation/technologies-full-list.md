@@ -314,7 +314,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `sum(iterable_value)`
 
 - `map()`
-- `a, b = <map object>`
 - `max(<map object>)`
 
 #### Comments
