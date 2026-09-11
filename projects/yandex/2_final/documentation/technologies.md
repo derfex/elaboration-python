@@ -43,6 +43,14 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
+##### `tuple`
+
+Doc: `class tuple(iterable=(), /)`.
+
+###### Tuples operations
+
+- `variable_1, variable_2 = iterable_value`
+
 #### Text Sequence Type — `str`
 
 ##### Strings operations
@@ -69,4 +77,3 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 #### Other
 
 - `map()`
-- `a, b = <map object>`

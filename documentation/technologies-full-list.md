@@ -165,7 +165,6 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `variable := expression`
 - `map()`
-- `a, b = <map object>`
 
 #### Comments
 
