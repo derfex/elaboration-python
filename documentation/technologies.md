@@ -70,8 +70,10 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 Doc: `class tuple(iterable=(), /)`.
 
+###### Tuples operations
+
+- `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
-- `variable_1, variable_2, variable_3 = 'str'`
 
 #### Text Sequence Type — `str`
 

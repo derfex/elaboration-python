@@ -78,8 +78,15 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
 
+- `(42, )`, `(42, 4.2)`
+
+- `tuple_variable[index]`, `tuple_variable[-index]`
+- `tuple_variable[i:j]`, `tuple_variable[i:j:k]`
+
+###### Tuples operations
+
+- `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
-- `variable_1, variable_2, variable_3 = 'str'`
 
 #### Text Sequence Type — `str`
 
