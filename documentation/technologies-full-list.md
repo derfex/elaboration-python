@@ -312,13 +312,27 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `[expression for variable in iterable_value]`
 - `[expression for variable in iterable_value if condition]`
+
+#### Set comprehensions
+
 - `{expression for variable in iterable_value}`
 - `{expression for variable in iterable_value if condition}`
+
+#### Dict comprehensions
+
+- `{key_expression: value_expression for variable in iterable_value}`
+- `{key_expression: value_expression for variable in iterable_value if condition}`
+
+#### Generator comprehensions
+
+- `(expression for variable in iterable_value)`
+- `(expression for variable in iterable_value if condition)`
 
 #### Other
 
 - `variable := expression`
 
+- `all(iterable_value)`
 - `len(iterable_value)`
 - `sum(iterable_value)`
 
