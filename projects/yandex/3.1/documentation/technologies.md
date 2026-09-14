@@ -66,7 +66,7 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 Doc: `class tuple(iterable=(), /)`.
 
-- `(42, )`, `(42, 4.2)`
+- `(value, )`, `(value_1, value_2)`
 
 ###### Tuples operations
 

@@ -118,7 +118,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
 
-- `(42, )`, `(42, 4.2)`
+- `(value, )`, `(value_1, value_2)`
 
 - `tuple_variable[index]`, `tuple_variable[-index]`
 - `tuple_variable[i:j]`, `tuple_variable[i:j:k]`
