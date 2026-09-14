@@ -339,6 +339,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `map()`
 - `max(<map object>)`
 
+- `id(<object>)`
+
 #### Comments
 
 - `# …`
@@ -347,3 +349,9 @@ Doc: `class tuple(iterable=(), /)`.
   …
   """
   ```
+  
+### Standard libraries
+
+#### `copy`
+
+- `deepcopy(<object>)`
