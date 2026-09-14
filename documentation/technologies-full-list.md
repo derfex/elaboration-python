@@ -70,6 +70,10 @@
 - `enumerate(iterable_value, start=0)`
 - `zip(*iterable_values, strict=False)`
 
+##### Generator Types
+
+- `*(word for index, word in enumerate(['str_1', 'str_1']))` // TODO
+
 #### Sequence Types — `list`, `tuple`, `range`
 
 ##### `list`
