@@ -58,6 +58,18 @@
 
 - `False`, `True`
 
+#### Iterator Types
+
+##### Iterators functions
+
+- `all(iterable_value)`
+- `any(iterable_value)`
+- `len(iterable_value)`
+- `sum(iterable_value)`
+
+- `enumerate(iterable_value, start=0)`
+- `zip(*iterable_values, strict=False)`
+
 #### Sequence Types — `list`, `tuple`, `range`
 
 ##### `list`
@@ -331,10 +343,6 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `variable := expression`
-
-- `all(iterable_value)`
-- `len(iterable_value)`
-- `sum(iterable_value)`
 
 - `map()`
 - `max(<map object>)`

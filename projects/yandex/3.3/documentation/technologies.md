@@ -28,6 +28,13 @@
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
+#### Iterator Types
+
+##### Iterators functions
+
+- `all(iterable_value)`
+- `sum(iterable_value)`
+
 #### Sequence Types — `list`, `tuple`, `range`
 
 ##### `list`
@@ -133,8 +140,3 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `{key_expression: value_expression for variable in iterable_value}`
 - `{key_expression: value_expression for variable in iterable_value if condition}`
-
-#### Other
-
-- `all(iterable_value)`
-- `sum(iterable_value)`
