@@ -198,7 +198,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.isdigit()`
 - `string_value_1.islower()`
 - `string_value_1.isupper()`
-- `string_value_1.join([string_value_2, string_value_3])` // TODO: list or iterable?
+- `string_value_1.join(iterable_value)`
 - `string_value_1.ljust(width, fillchar)`
 - `string_value_1.lower()`
 - `string_value_1.lstrip('str')`

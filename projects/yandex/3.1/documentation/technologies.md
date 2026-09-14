@@ -106,7 +106,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.count(string_value_2)`
 - `string_value_1.endswith(string_value_2)`
 - `string_value_1.find(string_value_2)`
-- `string_value_1.join([string_value_2, string_value_3])` // TODO: list or iterable?
+- `string_value_1.join(iterable_value)`
 - `string_value_1.lower()`
 - `string_value_1.rstrip(string_value_2)`
 - `string_value_1.split(string_value_2)`
