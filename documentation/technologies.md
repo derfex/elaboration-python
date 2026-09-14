@@ -86,6 +86,7 @@ Doc: `class list(iterable=(), /)`.
 ###### Lists methods
 
 - `list_variable.append(list_item_value)`
+- `list_variable.count(list_item_value)`
 - `list_variable.index(list_item_value)`
 - `list_variable.pop()`
 - `list_variable.sort()`
@@ -101,6 +102,8 @@ Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 Doc: `class tuple(iterable=(), /)`.
 
 - `tuple()`
+
+- `(value, )`, `(value_1, value_2)`
 
 - `tuple_variable[index]`, `tuple_variable[-index]`
 
@@ -163,6 +166,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.count(string_value_2)`
 - `string_value_1.endswith(string_value_2)`
 - `string_value_1.find(string_value_2)`
+- `string_value_1.isalpha()`
+- `string_value_1.isdigit()`
 - `string_value_1.islower()`
 - `string_value_1.join([string_value_2, string_value_3])` // TODO: list or iterable?
 - `string_value_1.lower()`
@@ -240,6 +245,8 @@ Doc: `class tuple(iterable=(), /)`.
 - `condition_1 or condition_2`
 - `not condition`
 
+- `value_1 if condition else value_2`
+
 #### Loops
 
 - `for variable in iterable_value:`
@@ -247,10 +254,26 @@ Doc: `class tuple(iterable=(), /)`.
 - `break`
 - `continue`
 
+#### List comprehensions
+
+- `[expression for variable in iterable_value]`
+- `[expression for variable in iterable_value if condition]`
+
+#### Set comprehensions
+
+- `{expression for variable in iterable_value}`
+- `{expression for variable in iterable_value if condition}`
+
+#### Dict comprehensions
+
+- `{key_expression: value_expression for variable in iterable_value}`
+- `{key_expression: value_expression for variable in iterable_value if condition}`
+
 #### Other
 
 - `variable := expression`
 
+- `all(iterable_value)`
 - `len(iterable_value)`
 - `sum(iterable_value)`
 
