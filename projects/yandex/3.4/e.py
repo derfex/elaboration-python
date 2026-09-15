@@ -42,12 +42,10 @@ from itertools import chain
 strings_quantity = 3
 strings_separator = ', '
 
-shopping_list = sorted(frozenset(
-    chain.from_iterable([
-        sorted(input().split(strings_separator))
-        for _ in range(strings_quantity)
-    ])
-))
+shopping_list = sorted(chain.from_iterable([
+    sorted(input().split(strings_separator))
+    for _ in range(strings_quantity)
+]))
 
 for number, item in enumerate(shopping_list, 1):
     print(f"{number}. {item}")
