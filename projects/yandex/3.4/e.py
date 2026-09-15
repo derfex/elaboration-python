@@ -48,4 +48,4 @@ shopping_list = sorted(chain.from_iterable([
 ]))
 
 for number, item in enumerate(shopping_list, 1):
-    print(f"{number}. {item}")
+    print(f'{number}. {item}')
