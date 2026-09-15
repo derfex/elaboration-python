@@ -363,3 +363,21 @@ Doc: `class tuple(iterable=(), /)`.
 #### `copy`
 
 - `deepcopy(<object>)`
+
+#### `itertools`
+
+- `count(start=0, step=1)`
+- `cycle(iterable_value)`
+- `repeat(value[, times_integer_value])`
+
+- `accumulate(iterable_value)`
+- `chain(*iterable_values)`
+    - `chain.from_iterable(iterable_value)`
+- `product(*iterable_values, repeat=1)`
+
+- `combinations(iterable_value)`
+- `combinations_with_replacement(iterable_value)`
+- `permutations(iterable_value)`
+
+- `islice(iterable_value, stop_integer_value)`
+    - `islice(iterable_value, start_integer_value, stop_integer_value[, step_integer_value])`
