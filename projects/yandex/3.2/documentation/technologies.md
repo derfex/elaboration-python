@@ -36,6 +36,12 @@
 
 - `False`, `True`
 
+#### Iterator Types
+
+##### Iterators operations
+
+- `*iterable_value`
+
 #### Sequence Types — `list`, `tuple`, `range`
 
 ##### `list`
@@ -47,10 +53,6 @@ Doc: `class list(iterable=(), /)`.
 - `[42]`, `[42, 4.2]`
 
 - `list_value[index]`, `list_value[-index]`
-
-###### Lists operations
-
-- `*list_value`
 
 ###### Lists functions
 
@@ -125,8 +127,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `set_variable |= set_value`
 
 - `value in set_value`, `value not in set_value`
-
-- `*set_value`
 
 ##### Common sets functions
 

@@ -60,6 +60,10 @@
 
 #### Iterator Types
 
+##### Iterators operations
+
+- `*iterable_value`
+
 ##### Iterators functions
 
 - `all(iterable_value)`
@@ -69,10 +73,6 @@
 
 - `enumerate(iterable_value, start=0)`
 - `zip(*iterable_values, strict=False)`
-
-##### Generator Types
-
-- `*(word for index, word in enumerate(['str_1', 'str_1']))` // TODO
 
 #### Sequence Types — `list`, `tuple`, `range`
 
@@ -97,8 +97,6 @@ Doc: `class list(iterable=(), /)`.
 
 - `del list_variable[index]`
 - `del list_variable[i:j:k]`
-
-- `*list_value`
 
 ###### Lists functions
 
@@ -240,8 +238,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `set_variable |= set_value`
 
 - `value in set_value`, `value not in set_value`
-
-- `*set_value`
 
 ###### Common sets comparison
 

@@ -60,6 +60,10 @@
 
 #### Iterator Types
 
+##### Iterators operations
+
+- `*iterable_value`
+
 ##### Iterators functions
 
 - `all(iterable_value)`
@@ -82,8 +86,6 @@ Doc: `class list(iterable=(), /)`.
 ###### Lists operations
 
 - `value in list_value`, `value not in list_value`
-
-- `*list_value`
 
 ###### Lists functions
 
@@ -195,8 +197,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `set_variable |= set_value`
 
 - `value in set_value`, `value not in set_value`
-
-- `*set_value`
 
 ##### Common sets functions
 
