@@ -66,6 +66,9 @@
 
 ##### Iterators functions
 
+- `iter(iterable_value, /)`
+  - `iter(callable_value, sentinel_value, /)`
+
 - `all(iterable_value)`
 - `any(iterable_value)`
 - `len(iterable_value)`

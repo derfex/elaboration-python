@@ -8,14 +8,22 @@
 
 - `input()`
 - `print()`
+  - `print(value_1, value_2, end=string_value)`
   - `print(value_1, value_2, sep=string_value)`
 
 #### Numeric Types — `int`, `float`, `complex`
 
 ##### Numbers operations
 
+- `42 + 42`
+- `42 - 42`
+- `42 * 42`
+- `num += 42`
+- `num //= 42`
+
 ###### Numbers comparison
 
+- `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
 ##### `float`
@@ -37,6 +45,8 @@
 
 ##### Iterators functions
 
+- `iter(iterable_value, /)`
+
 - `enumerate(iterable_value, start=0)`
 - `zip(*iterable_values, strict=False)`
 
@@ -51,6 +61,7 @@ Doc: `class list(iterable=(), /)`.
 ###### Lists operations
 
 - `list_value_1 + list_value_2`
+- `list_value * 42`
 
 ###### Lists functions
 
@@ -89,6 +100,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `f''`
   - `f'{string_value}'`
   - `f'{string_value:.2f}'`
+  - `f'{string_value:>{length}}'`
 
 ###### Strings comparison
 
@@ -146,5 +158,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `product(*iterable_values, repeat=1)`
 
 - `combinations(iterable_value)`
+- `permutations(iterable_value)`
 
 - `islice(iterable_value, stop_integer_value)`
