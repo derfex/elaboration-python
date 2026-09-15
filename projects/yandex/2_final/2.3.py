@@ -138,8 +138,7 @@ else:
             break
         result_student_rating_min = min(result_student_rating_min, student_rating)
         student_rating_sum += student_rating
-
-        # Calculate top 3 places.
+        # region Calculate top 3 places.
         if student_rating > result_student_1_rating:
             result_student_3_rating = result_student_2_rating
             result_student_3_surname = result_student_2_surname
@@ -155,6 +154,7 @@ else:
         elif student_rating > result_student_3_rating:
             result_student_3_rating = student_rating
             result_student_3_surname = student_surname
+        # endregion Calculate top 3 places
     result_student_1_rating = round(result_student_1_rating * 100 / max_rating)
     result_student_2_rating = round(result_student_2_rating * 100 / max_rating)
     result_student_3_rating = round(result_student_3_rating * 100 / max_rating)
