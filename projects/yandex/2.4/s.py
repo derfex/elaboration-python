@@ -38,14 +38,14 @@
 
 size = int(input())
 
-# Calculate the length of each cell: it is equal to the length of the number in the middle.
+# region Calculate the length of each cell: it is equal to the length of the number in the middle
 middle_number = (size + 1) // 2
 cell_length = 0
 while middle_number:
     cell_length += 1
     middle_number //= 10
+# endregion Calculate the length of each cell: it is equal to the length of the number in the middle
 
-# Print the results.
 for row_number in range(size):
     for column_number in range(size):
         number = min(row_number + 1, column_number + 1, size - row_number, size - column_number)
