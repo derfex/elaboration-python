@@ -44,7 +44,7 @@ strings_separator = ', '
 
 shopping_list = sorted(frozenset(
     chain.from_iterable([
-        sorted(frozenset(input().split(strings_separator)))
+        sorted(input().split(strings_separator))
         for _ in range(strings_quantity)
     ])
 ))
