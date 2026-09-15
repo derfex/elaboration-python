@@ -51,7 +51,7 @@ letters_count = 0
 letters_counts = []
 stop_command = 'ФИНИШ'
 
-# Calculate counts of the letters.
+# region Calculate counts of the letters
 while (string := input()) != stop_command:
     for letter in string:
         if letter == ' ':
@@ -64,13 +64,15 @@ while (string := input()) != stop_command:
         else:
             letters.append(letter)
             letters_counts.append(1)
+# endregion Calculate counts of the letters
 
-# Among the most frequent letters, find the lexicographically smallest one.
+# region Among the most frequent letters, find the lexicographically smallest one
 letters_count_max = max(letters_counts)
 result_letter = chr(ord('ё') + 1)
 for i in range(letters_count):
     letters_count_max_index = letters_counts[i:].index(letters_count_max)
     letter_with_max_count = letters[letters_count_max_index]
     result_letter = min(result_letter, letter_with_max_count)
+# endregion Among the most frequent letters, find the lexicographically smallest one
 
 print(result_letter)
