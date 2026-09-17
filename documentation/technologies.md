@@ -169,7 +169,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### `str`
 
-- `str(42)`
+- `str(value)`
 
 ##### Strings methods
 
