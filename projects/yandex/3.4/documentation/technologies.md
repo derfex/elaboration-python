@@ -37,6 +37,8 @@
 
 #### Boolean Type — `bool`
 
+- `False`, `True`
+
 #### Iterator Types
 
 ##### Iterators operations
@@ -112,6 +114,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings methods
 
+- `string_value_1.join(iterable_value)`
 - `string_value_1.split(string_value_2)`
 
 #### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
@@ -124,7 +127,17 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Mapping Types — `dict`
 
+- `{'immutable_key_1': value_1, 'immutable_key_2': value_2}`
+
+- `dict_value[immutable_key]`
+
+##### Dicts methods
+
+- `dict_value.values()`
+
 #### Conditions
+
+- `if condition:`, `elif condition:`, `else:`
 
 #### Loops
 
