@@ -55,5 +55,5 @@ values_tuples_iterator = product((False, True), repeat=variables_quantity)
 print(*variables_list, table_header_result_title)
 for values in values_tuples_iterator:
     variables_and_values_iterator = zip(variables_list, values)
-    eval_globals = {variable_as_key: value for variable_as_key, value in variables_and_values_iterator}
-    print(*[int(v) for v in values], int(eval(expression, eval_globals)))
+    eval_locals = {variable_as_key: value for variable_as_key, value in variables_and_values_iterator}
+    print(*[int(v) for v in values], int(eval(expression, {}, eval_locals)))
