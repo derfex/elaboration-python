@@ -352,6 +352,8 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `id(<object>)`
 
+- `eval(…)`
+
 #### Comments
 
 - `# …`

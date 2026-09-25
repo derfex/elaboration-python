@@ -49,6 +49,8 @@
 
 - `iter(iterable_value, /)`
 
+- `len(iterable_value)`
+
 - `enumerate(iterable_value, start=0)`
 - `zip(*iterable_values, strict=False)`
 
@@ -97,6 +99,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings operations
 
+- `string_value_1 + string_value_2`
 - `string_variable += string_value`
 
 - `f''`
@@ -114,6 +117,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings methods
 
+- `string_value_1.isupper()`
 - `string_value_1.join(iterable_value)`
 - `string_value_1.split(string_value_2)`
 
@@ -121,9 +125,25 @@ Doc: `class tuple(iterable=(), /)`.
 
 #### Set Types — `set`, `frozenset`
 
+##### Common sets operations
+
+- `value in set_value`, `value not in set_value`
+
+##### Common sets functions
+
+- `len(set_value)`
+
 ##### `frozenset`
 
 - `frozenset(iterable_value)`
+
+##### `set`
+
+- `set(iterable_value)`
+
+##### Sets methods
+
+- `set_variable.add(value)`
 
 #### Mapping Types — `dict`
 
@@ -138,6 +158,8 @@ Doc: `class tuple(iterable=(), /)`.
 #### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
+- `condition_1 and condition_2`
+- `not condition`
 
 #### Loops
 
@@ -150,6 +172,10 @@ Doc: `class tuple(iterable=(), /)`.
 - `[expression for variable in iterable_value]`
 - `[expression for variable in iterable_value if condition]`
 
+#### Dict comprehensions
+
+- `{key_expression: value_expression for variable in iterable_value}`
+
 #### Generator comprehensions
 
 - `(expression for variable in iterable_value)`
@@ -157,6 +183,8 @@ Doc: `class tuple(iterable=(), /)`.
 #### Other
 
 - `map()`
+
+- `eval(…)`
 
 ### Standard libraries
 
