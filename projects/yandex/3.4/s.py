@@ -37,9 +37,7 @@
 
 from itertools import product
 
-table_header_columns_separator = ' '
 table_header_result_title = 'F'
-table_header_postfix = table_header_columns_separator + table_header_result_title
 
 expression = input()
 
@@ -52,10 +50,9 @@ variables_list = sorted(variables_set)
 variables_quantity = len(variables_set)
 # endregion Calculate `variables_list` and `variables_quantity`
 
-table_header = table_header_columns_separator.join(variables_list) + table_header_postfix
 values_tuples_iterator = product((False, True), repeat=variables_quantity)
 
-print(table_header)
+print(*variables_list, table_header_result_title)
 for values in values_tuples_iterator:
     variables_and_values_iterator = zip(variables_list, values)
     eval_globals = {variable_as_key: value for variable_as_key, value in variables_and_values_iterator}

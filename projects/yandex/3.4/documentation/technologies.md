@@ -99,7 +99,6 @@ Doc: `class tuple(iterable=(), /)`.
 
 ##### Strings operations
 
-- `string_value_1 + string_value_2`
 - `string_variable += string_value`
 
 - `f''`
