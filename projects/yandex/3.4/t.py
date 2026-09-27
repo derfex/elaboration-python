@@ -98,11 +98,12 @@ while expression_index < expression_length:
     if symbol == space_operation_symbol:
         expression_index += 1
         continue
-    operation = symbol
+    expression_operation = symbol
     while expression[expression_index + 1] != space_operation_symbol:
         expression_index += 1
-        operation += expression[expression_index]
-    expression_list.append(operations_dict.get(operation, operation))
+        expression_operation += expression[expression_index]
+    operation = operations_dict.get(expression_operation, expression_operation)
+    expression_list.append(operation)
     expression_index += 2
 
 # // TODO
