@@ -77,6 +77,11 @@ expression_list = []
 variables_set = set()
 while expression_index < expression_length:
     symbol = expression[expression_index]
+    if symbol.isupper():
+        expression_list.append(symbol)
+        variables_set.add(symbol)
+        expression_index += 1
+        continue
     if symbol == '(':
         expression_list.append(symbol)
         expression_index += 1
@@ -84,11 +89,6 @@ while expression_index < expression_length:
     if symbol == ')':
         expression_list.append(symbol)
         expression_index += 2
-        continue
-    if symbol.isupper():
-        expression_list.append(symbol)
-        variables_set.add(symbol)
-        expression_index += 1
         continue
     if symbol == space_operator_symbol:
         expression_index += 1
