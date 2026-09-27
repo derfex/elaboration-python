@@ -56,16 +56,21 @@
 
 from itertools import product
 
+# region Operations
+space_operation_symbol = ' '
+group_begin_operation_symbol = '('
+group_end_operation_symbol = ')'
+# endregion Operations
 operations_dict = {
     '->': '<=',
     '^': '!=',
     '~': '==',
 }
+operations_priorities_list = ['not', 'and', 'or', '!=', '<=', '==', group_begin_operation_symbol]
 operations_priorities_dict = {
     operation: priority
-    for priority, operation in enumerate(['not', 'and', 'or', '!=', '<=', '==', '('])
+    for priority, operation in enumerate(operations_priorities_list)
 }
-space_operator_symbol = ' '
 table_header_result_title = 'F'
 
 expression = input()
@@ -82,19 +87,19 @@ while expression_index < expression_length:
         variables_set.add(symbol)
         expression_index += 1
         continue
-    if symbol == '(':
+    if symbol == group_begin_operation_symbol:
         expression_list.append(symbol)
         expression_index += 1
         continue
-    if symbol == ')':
+    if symbol == group_end_operation_symbol:
         expression_list.append(symbol)
         expression_index += 2
         continue
-    if symbol == space_operator_symbol:
+    if symbol == space_operation_symbol:
         expression_index += 1
         continue
     operation = symbol
-    while expression[expression_index + 1] != space_operator_symbol:
+    while expression[expression_index + 1] != space_operation_symbol:
         expression_index += 1
         operation += expression[expression_index]
     expression_list.append(operations_dict.get(operation, operation))
