@@ -79,26 +79,26 @@ expression = input()
 expression_index = 0
 expression_length = len(expression)
 expression_list = []
-polish_calculator_result = []
-polish_calculator_stack = []
+polish_calculator_expression_stack = []
+polish_calculator_operations_stack = []
 variables_set = set()
 while expression_index < expression_length:
     symbol = expression[expression_index]
     if symbol.isupper():
-        polish_calculator_result.append(symbol)
+        polish_calculator_expression_stack.append(symbol)
         expression_list.append(symbol)
         variables_set.add(symbol)
         expression_index += 1
         continue
     if symbol == group_begin_operation_symbol:
-        polish_calculator_stack.append(symbol)
+        polish_calculator_operations_stack.append(symbol)
         expression_list.append(symbol)
         expression_index += 1
         continue
     if symbol == group_end_operation_symbol:
-        while polish_calculator_stack[-1] != group_begin_operation_symbol:
-            polish_calculator_result.append(polish_calculator_stack.pop())
-        polish_calculator_stack.pop()
+        while polish_calculator_operations_stack[-1] != group_begin_operation_symbol:
+            polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
+        polish_calculator_operations_stack.pop()
         expression_list.append(symbol)
         expression_index += 2
         continue
@@ -110,15 +110,30 @@ while expression_index < expression_length:
         expression_index += 1
         expression_operation += expression[expression_index]
     operation = operations_dict.get(expression_operation, expression_operation)
-    while polish_calculator_stack and (
-        operations_priorities_dict[operation] >= operations_priorities_dict[polish_calculator_stack[-1]]
+    while polish_calculator_operations_stack and (
+        operations_priorities_dict[operation] >= operations_priorities_dict[polish_calculator_operations_stack[-1]]
     ):
-        polish_calculator_result.append(polish_calculator_stack.pop())
-    polish_calculator_stack.append(operation)
+        polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
+    polish_calculator_operations_stack.append(operation)
     expression_list.append(operation)
     expression_index += 2
 
-while polish_calculator_stack:
-    polish_calculator_result.append(polish_calculator_stack.pop())
+while polish_calculator_operations_stack:
+    polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
+
+# parsed_expression = ['A', 'C', 'or', 'A', 'B', '<=', 'not', 'C', 'or', '==']
+
+# region Calculate `variables_list` and `variables_quantity`
+variables_list = sorted(variables_set)
+variables_quantity = len(variables_set)
+# endregion Calculate `variables_list` and `variables_quantity`
+
+values_tuples_iterator = product((False, True), repeat=variables_quantity)
+
+print(*variables_list, table_header_result_title)
+
+
+
+exit()
 
 # // TODO
