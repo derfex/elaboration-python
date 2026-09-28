@@ -79,19 +79,26 @@ expression = input()
 expression_index = 0
 expression_length = len(expression)
 expression_list = []
+polish_calculator_result = []
+polish_calculator_stack = []
 variables_set = set()
 while expression_index < expression_length:
     symbol = expression[expression_index]
     if symbol.isupper():
+        polish_calculator_result.append(symbol)
         expression_list.append(symbol)
         variables_set.add(symbol)
         expression_index += 1
         continue
     if symbol == group_begin_operation_symbol:
+        polish_calculator_stack.append(symbol)
         expression_list.append(symbol)
         expression_index += 1
         continue
     if symbol == group_end_operation_symbol:
+        while polish_calculator_stack[-1] != group_begin_operation_symbol:
+            polish_calculator_result.append(polish_calculator_stack.pop())
+        polish_calculator_stack.pop()
         expression_list.append(symbol)
         expression_index += 2
         continue
@@ -103,7 +110,15 @@ while expression_index < expression_length:
         expression_index += 1
         expression_operation += expression[expression_index]
     operation = operations_dict.get(expression_operation, expression_operation)
+    while polish_calculator_stack and (
+        operations_priorities_dict[operation] >= operations_priorities_dict[polish_calculator_stack[-1]]
+    ):
+        polish_calculator_result.append(polish_calculator_stack.pop())
+    polish_calculator_stack.append(operation)
     expression_list.append(operation)
     expression_index += 2
+
+while polish_calculator_stack:
+    polish_calculator_result.append(polish_calculator_stack.pop())
 
 # // TODO
