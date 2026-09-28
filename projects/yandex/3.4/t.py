@@ -75,6 +75,7 @@ table_header_result_title = 'F'
 
 expression = input()
 
+# region Calculate `expression_list`, `polish_calculator_expression_stack`, `variables_set`.
 # Let me parse `expression` in one pass, symbol by symbol.
 expression_index = 0
 expression_length = len(expression)
@@ -117,11 +118,9 @@ while expression_index < expression_length:
     polish_calculator_operations_stack.append(operation)
     expression_list.append(operation)
     expression_index += 2
-
 while polish_calculator_operations_stack:
     polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
-
-# parsed_expression = ['A', 'C', 'or', 'A', 'B', '<=', 'not', 'C', 'or', '==']
+# endregion Calculate `expression_list`, `polish_calculator_expression_stack`, `variables_set`.
 
 # region Calculate `variables_list` and `variables_quantity`
 variables_list = sorted(variables_set)
