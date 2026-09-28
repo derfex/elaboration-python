@@ -122,12 +122,8 @@ while polish_calculator_operations_stack:
     polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
 # endregion Calculate `expression_list`, `polish_calculator_expression_stack`, `variables_set`.
 
-# region Calculate `variables_list` and `variables_quantity`
+values_tuples_iterator = product((False, True), repeat=len(variables_set))
 variables_list = sorted(variables_set)
-variables_quantity = len(variables_set)
-# endregion Calculate `variables_list` and `variables_quantity`
-
-values_tuples_iterator = product((False, True), repeat=variables_quantity)
 
 print(*variables_list, table_header_result_title)
 
