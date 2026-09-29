@@ -59,6 +59,7 @@ from itertools import product
 # region Operations
 group_begin_operation_symbol = '('
 group_end_operation_symbol = ')'
+negation_operation = 'not'
 space_operation_symbol = ' '
 # endregion Operations
 operations_dict = {
@@ -126,8 +127,23 @@ values_tuples_iterator = product((False, True), repeat=len(variables_set))
 variables_list = sorted(variables_set)
 
 print(*variables_list, table_header_result_title)
-
-
+for values in values_tuples_iterator:
+    variables_and_values_iterator = zip(variables_list, values)
+    variables_and_values_dict = {variable_as_key: value for variable_as_key, value in variables_and_values_iterator}
+    # region Evaluate `polish_calculator_expression`
+    values_stack = []
+    for item in polish_calculator_expression:
+        if item in variables_and_values_dict:
+            values_stack.append(variables_and_values_dict[item])
+        else:
+            if item == negation_operation:
+                values_stack.append(not values_stack.pop())
+            else:
+                value_2, value_1 = values_stack.pop(), values_stack.pop()
+                values_stack.append(eval(f'{value_1} {item} {value_2}'))
+    evaluated_value = values_stack.pop()
+    # endregion Evaluate `polish_calculator_expression`
+    print(*[int(v) for v in values], int(evaluated_value))
 
 exit()
 
