@@ -76,6 +76,7 @@ Doc: `class list(iterable=(), /)`.
 ###### Lists methods
 
 - `list_variable.append(list_item_value)`
+- `list_variable.pop()`
 
 ##### `range`
 
@@ -94,8 +95,11 @@ Doc: `class tuple(iterable=(), /)`.
 ###### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
+- `variable_1, variable_2 = expression_1, expression_2`
 
 #### Text Sequence Type — `str`
+
+- `string_value[index]`, `string_value[-index]`
 
 ##### Strings operations
 
@@ -109,6 +113,10 @@ Doc: `class tuple(iterable=(), /)`.
 ###### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
+
+##### Strings functions
+
+- `len(string_value)`
 
 ##### `str`
 
@@ -150,7 +158,13 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `dict_value[immutable_key]`
 
+##### Dicts operations
+
+- `immutable_key in dict_value`, `immutable_key not in dict_value`
+
 ##### Dicts methods
+
+- `dict_value.get(immutable_key, default_value)`
 
 - `dict_value.values()`
 
@@ -163,6 +177,7 @@ Doc: `class tuple(iterable=(), /)`.
 #### Loops
 
 - `for variable in iterable_value:`
+- `while condition:`
 - `break`
 - `continue`
 
