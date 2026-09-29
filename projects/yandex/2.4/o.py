@@ -42,11 +42,13 @@
 rows_quantity = int(input())
 columns_quantity = int(input())
 
+# region Calculate `columns_width`
+columns_width = 0
 max_number = rows_quantity * columns_quantity
-width = 0
 while max_number:
-    width += 1
+    columns_width += 1
     max_number //= 10
+# endregion Calculate `columns_width`
 
 for row_number in range(rows_quantity):
     for column_number in range(columns_quantity):
@@ -57,5 +59,5 @@ for row_number in range(rows_quantity):
             number += rows_quantity - row_number
         else:
             number += row_number + 1
-        print(f'{number:>{width}}', end=' ')
+        print(f'{number:>{columns_width}}', end=' ')
     print()

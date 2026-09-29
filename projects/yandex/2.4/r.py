@@ -42,7 +42,7 @@
 
 size = int(input())
 
-# Calculate the length of each row: it is equal to the length of the last row.
+# region Calculate the length of each row: it is equal to the length of the last row
 row_limit = 1
 quantity = size
 while quantity > 0:
@@ -56,8 +56,8 @@ for last_row_number in range(size - last_row_numbers_quantity + 1, size + 1):
         last_row_number //= 10
 last_row_length += last_row_numbers_quantity - 1
 row_length = last_row_length
+# endregion Calculate the length of each row: it is equal to the length of the last row
 
-# Print the results.
 number = 1
 row_limit = 0
 while number <= size:
