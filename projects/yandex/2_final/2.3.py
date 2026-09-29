@@ -138,7 +138,7 @@ else:
             break
         result_student_rating_min = min(result_student_rating_min, student_rating)
         student_rating_sum += student_rating
-        # region Calculate top 3 places.
+        # region Calculate top 3 places
         if student_rating > result_student_1_rating:
             result_student_3_rating = result_student_2_rating
             result_student_3_surname = result_student_2_surname
