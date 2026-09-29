@@ -66,9 +66,14 @@
 
 ##### Iterators functions
 
+- `iter(iterable_value, /)`
+
 - `all(iterable_value)`
 - `len(iterable_value)`
 - `sum(iterable_value)`
+
+- `enumerate(iterable_value, start=0)`
+- `zip(*iterable_values, strict=False)`
 
 #### Sequence Types — `list`, `tuple`, `range`
 
@@ -85,9 +90,14 @@ Doc: `class list(iterable=(), /)`.
 
 ###### Lists operations
 
+- `list_value_1 + list_value_2`
+- `list_value * 42`
+
 - `value in list_value`, `value not in list_value`
 
 ###### Lists functions
+
+- `enumerate(list_value)`
 
 - `len(list_value)`
 - `max(list_value)`
@@ -179,6 +189,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.isalpha()`
 - `string_value_1.isdigit()`
 - `string_value_1.islower()`
+- `string_value_1.isupper()`
 - `string_value_1.join(iterable_value)`
 - `string_value_1.lower()`
 - `string_value_1.rstrip(string_value_2)`
@@ -277,12 +288,35 @@ Doc: `class tuple(iterable=(), /)`.
 - `{key_expression: value_expression for variable in iterable_value}`
 - `{key_expression: value_expression for variable in iterable_value if condition}`
 
+#### Generator comprehensions
+
+- `(expression for variable in iterable_value)`
+
 #### Other
 
 - `variable := expression`
 
 - `map()`
 - `max(<map object>)`
+
+- `eval(…)`
+
+### Standard libraries
+
+#### `itertools`
+
+- `count(start=0, step=1)`
+- `cycle(iterable_value)`
+
+- `accumulate(iterable_value)`
+- `chain(*iterable_values)`
+    - `chain.from_iterable(iterable_value)`
+- `product(*iterable_values, repeat=1)`
+
+- `combinations(iterable_value)`
+- `permutations(iterable_value)`
+
+- `islice(iterable_value, stop_integer_value)`
 
 #### Comments
 

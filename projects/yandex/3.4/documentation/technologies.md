@@ -128,8 +128,6 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.join(iterable_value)`
 - `string_value_1.split(string_value_2)`
 
-#### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
-
 #### Set Types — `set`, `frozenset`
 
 ##### Common sets operations
