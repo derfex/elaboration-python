@@ -57,9 +57,9 @@
 from itertools import product
 
 # region Operations
-space_operation_symbol = ' '
 group_begin_operation_symbol = '('
 group_end_operation_symbol = ')'
+space_operation_symbol = ' '
 # endregion Operations
 operations_dict = {
     '->': '<=',
