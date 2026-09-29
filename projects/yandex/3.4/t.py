@@ -75,18 +75,18 @@ table_header_result_title = 'F'
 
 expression = input()
 
-# region Calculate `expression_list`, `polish_calculator_expression_stack`, `variables_set`.
+# region Calculate `expression_list`, `polish_calculator_expression`, `variables_set`.
 # Let me parse `expression` in one pass, symbol by symbol.
 expression_index = 0
 expression_length = len(expression)
 expression_list = []
-polish_calculator_expression_stack = []
+polish_calculator_expression = []
 polish_calculator_operations_stack = []
 variables_set = set()
 while expression_index < expression_length:
     symbol = expression[expression_index]
     if symbol.isupper():
-        polish_calculator_expression_stack.append(symbol)
+        polish_calculator_expression.append(symbol)
         expression_list.append(symbol)
         variables_set.add(symbol)
         expression_index += 1
@@ -98,7 +98,7 @@ while expression_index < expression_length:
         continue
     if symbol == group_end_operation_symbol:
         while polish_calculator_operations_stack[-1] != group_begin_operation_symbol:
-            polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
+            polish_calculator_expression.append(polish_calculator_operations_stack.pop())
         polish_calculator_operations_stack.pop()
         expression_list.append(symbol)
         expression_index += 2
@@ -114,12 +114,12 @@ while expression_index < expression_length:
     while polish_calculator_operations_stack and (
         operations_priorities_dict[operation] >= operations_priorities_dict[polish_calculator_operations_stack[-1]]
     ):
-        polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
+        polish_calculator_expression.append(polish_calculator_operations_stack.pop())
     polish_calculator_operations_stack.append(operation)
     expression_list.append(operation)
     expression_index += 2
 while polish_calculator_operations_stack:
-    polish_calculator_expression_stack.append(polish_calculator_operations_stack.pop())
+    polish_calculator_expression.append(polish_calculator_operations_stack.pop())
 # endregion Calculate `expression_list`, `polish_calculator_expression_stack`, `variables_set`.
 
 values_tuples_iterator = product((False, True), repeat=len(variables_set))
