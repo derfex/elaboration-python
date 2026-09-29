@@ -133,7 +133,8 @@ for values in values_tuples_iterator:
                 values_stack.append(not values_stack.pop())
             else:
                 value_2, value_1 = values_stack.pop(), values_stack.pop()
-                values_stack.append(eval(f'{value_1} {item} {value_2}'))
+                value = eval(f'{value_1} {item} {value_2}')
+                values_stack.append(value)
     evaluated_value = values_stack.pop()
     # endregion Evaluate `polish_calculator_expression`
     print(*[int(v) for v in values], int(evaluated_value))
