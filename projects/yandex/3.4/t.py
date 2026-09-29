@@ -52,8 +52,6 @@
 """
 
 
-# // TODO
-
 from itertools import product
 
 # region Operations
@@ -76,11 +74,10 @@ table_header_result_title = 'F'
 
 expression = input()
 
-# region Calculate `expression_list`, `polish_calculator_expression`, `variables_set`.
+# region Calculate `polish_calculator_expression`, `variables_set`
 # Let me parse `expression` in one pass, symbol by symbol.
 expression_index = 0
 expression_length = len(expression)
-expression_list = []
 polish_calculator_expression = []
 polish_calculator_operations_stack = []
 variables_set = set()
@@ -88,20 +85,17 @@ while expression_index < expression_length:
     symbol = expression[expression_index]
     if symbol.isupper():
         polish_calculator_expression.append(symbol)
-        expression_list.append(symbol)
         variables_set.add(symbol)
         expression_index += 1
         continue
     if symbol == group_begin_operation_symbol:
         polish_calculator_operations_stack.append(symbol)
-        expression_list.append(symbol)
         expression_index += 1
         continue
     if symbol == group_end_operation_symbol:
         while polish_calculator_operations_stack[-1] != group_begin_operation_symbol:
             polish_calculator_expression.append(polish_calculator_operations_stack.pop())
         polish_calculator_operations_stack.pop()
-        expression_list.append(symbol)
         expression_index += 2
         continue
     if symbol == space_operation_symbol:
@@ -117,11 +111,10 @@ while expression_index < expression_length:
     ):
         polish_calculator_expression.append(polish_calculator_operations_stack.pop())
     polish_calculator_operations_stack.append(operation)
-    expression_list.append(operation)
     expression_index += 2
 while polish_calculator_operations_stack:
     polish_calculator_expression.append(polish_calculator_operations_stack.pop())
-# endregion Calculate `expression_list`, `polish_calculator_expression_stack`, `variables_set`.
+# endregion Calculate `polish_calculator_expression_stack`, `variables_set`
 
 values_tuples_iterator = product((False, True), repeat=len(variables_set))
 variables_list = sorted(variables_set)
@@ -144,7 +137,3 @@ for values in values_tuples_iterator:
     evaluated_value = values_stack.pop()
     # endregion Evaluate `polish_calculator_expression`
     print(*[int(v) for v in values], int(evaluated_value))
-
-exit()
-
-# // TODO
