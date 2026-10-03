@@ -1,14 +1,14 @@
-# Yandex. 3.3. Technologies
+# Yandex. 3.3. Technologies. Used
 
-## Used
+Used technologies.
 
-### Python
+## Python
 
-#### Input and output
+### Input and output
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -16,47 +16,47 @@
 - `42 % 42`
 - `42 ** 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### Numbers functions
+#### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
-#### Iterator Types
+### Iterator Types
 
-##### Iterators functions
+#### Iterators functions
 
 - `all(iterable_value)`
 - `sum(iterable_value)`
 
-#### Sequence Types — `list`, `tuple`, `range`
+### Sequence Types — `list`, `tuple`, `range`
 
-##### `list`
+#### `list`
 
 Doc: `class list(iterable=(), /)`.
 
-###### Lists functions
+##### Lists functions
 
 - `len(list_value)`
 - `sorted(iterable_value)`
 
-###### Lists methods
+##### Lists methods
 
 - `list_variable.count(list_item_value)`
 
-##### `range`
+#### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
@@ -64,31 +64,31 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple_variable[index]`, `tuple_variable[-index]`
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
 - `string_value[index]`, `string_value[-index]`
 
-##### Strings operations
+#### Strings operations
 
 - `string_value * 42`
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 > string_value_2`, `string_value_1 < string_value_2`
 
-##### Strings functions
+#### Strings functions
 
 - `len(string_value)`
 
-##### `str`
+#### `str`
 
 - `str(value)`
 
-##### Strings methods
+#### Strings methods
 
 - `string_value_1.count(string_value_2)`
 - `string_value_1.isalpha()`
@@ -98,45 +98,45 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.split(string_value_2)`
 - `string_value_1.upper()`
 
-#### Set Types — `set`, `frozenset`
+### Set Types — `set`, `frozenset`
 
-##### Common sets operations
+#### Common sets operations
 
 - `set_value_1 & set_value_2`
 
 - `value in set_value`, `value not in set_value`
 
-##### Common sets functions
+#### Common sets functions
 
 - `len(set_value)`
 
-##### `frozenset`
+#### `frozenset`
 
 - `frozenset(iterable_value)`
 
-#### Mapping Types — `dict`
+### Mapping Types — `dict`
 
-##### Dicts methods
+#### Dicts methods
 
 - `dict_value.items()`
 
-#### Conditions
+### Conditions
 
 - `condition_1 and condition_2`
 
 - `value_1 if condition else value_2`
 
-#### List comprehensions
+### List comprehensions
 
 - `[expression for variable in iterable_value]`
 - `[expression for variable in iterable_value if condition]`
 
-#### Set comprehensions
+### Set comprehensions
 
 - `{expression for variable in iterable_value}`
 - `{expression for variable in iterable_value if condition}`
 
-#### Dict comprehensions
+### Dict comprehensions
 
 - `{key_expression: value_expression for variable in iterable_value}`
 - `{key_expression: value_expression for variable in iterable_value if condition}`

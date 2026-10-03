@@ -1,19 +1,19 @@
-# Yandex. 3.4. Technologies
+# Yandex. 3.4. Technologies. Used
 
-## Used
+Used technologies.
 
-### Python
+## Python
 
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
   - `print(value_1, value_2, end=string_value)`
   - `print(value_1, value_2, sep=string_value)`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -21,31 +21,31 @@
 - `num += 42`
 - `num //= 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### `float`
+#### `float`
 
 - `float('4.2')`
 
-##### `int`
+#### `int`
 
 - `int()`
   - `int('42')`
 
-#### Boolean Type — `bool`
+### Boolean Type — `bool`
 
 - `False`, `True`
 
-#### Iterator Types
+### Iterator Types
 
-##### Iterators operations
+#### Iterators operations
 
 - `*iterable_value`
 
-##### Iterators functions
+#### Iterators functions
 
 - `iter(iterable_value, /)`
 
@@ -54,37 +54,37 @@
 - `enumerate(iterable_value, start=0)`
 - `zip(*iterable_values, strict=False)`
 
-#### Sequence Types — `list`, `tuple`, `range`
+### Sequence Types — `list`, `tuple`, `range`
 
-##### `list`
+#### `list`
 
 Doc: `class list(iterable=(), /)`.
 
 - `[42]`, `[42, 4.2]`
 
-###### Lists operations
+##### Lists operations
 
 - `list_value_1 + list_value_2`
 - `list_value * 42`
 
-###### Lists functions
+##### Lists functions
 
 - `enumerate(list_value)`
 
 - `sorted(iterable_value)`
 
-###### Lists methods
+##### Lists methods
 
 - `list_variable.append(list_item_value)`
 - `list_variable.pop()`
 
-##### `range`
+#### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
@@ -92,16 +92,16 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `(value, )`, `(value_1, value_2)`
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
 - `string_value[index]`, `string_value[-index]`
 
-##### Strings operations
+#### Strings operations
 
 - `string_variable += string_value`
 
@@ -110,97 +110,97 @@ Doc: `class tuple(iterable=(), /)`.
   - `f'{string_value:.2f}'`
   - `f'{string_value:>{length}}'`
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
-##### Strings functions
+#### Strings functions
 
 - `len(string_value)`
 
-##### `str`
+#### `str`
 
 - `str(value)`
 
-##### Strings methods
+#### Strings methods
 
 - `string_value_1.isupper()`
 - `string_value_1.join(iterable_value)`
 - `string_value_1.split(string_value_2)`
 
-#### Set Types — `set`, `frozenset`
+### Set Types — `set`, `frozenset`
 
-##### Common sets operations
+#### Common sets operations
 
 - `value in set_value`, `value not in set_value`
 
-##### Common sets functions
+#### Common sets functions
 
 - `len(set_value)`
 
-##### `frozenset`
+#### `frozenset`
 
 - `frozenset(iterable_value)`
 
-##### `set`
+#### `set`
 
 - `set(iterable_value)`
 
-##### Sets methods
+#### Sets methods
 
 - `set_variable.add(value)`
 
-#### Mapping Types — `dict`
+### Mapping Types — `dict`
 
 - `{'immutable_key_1': value_1, 'immutable_key_2': value_2}`
 
 - `dict_value[immutable_key]`
 
-##### Dicts operations
+#### Dicts operations
 
 - `immutable_key in dict_value`, `immutable_key not in dict_value`
 
-##### Dicts methods
+#### Dicts methods
 
 - `dict_value.get(immutable_key, default_value)`
 
 - `dict_value.values()`
 
-#### Conditions
+### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 - `condition_1 and condition_2`
 - `not condition`
 
-#### Loops
+### Loops
 
 - `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`
 
-#### List comprehensions
+### List comprehensions
 
 - `[expression for variable in iterable_value]`
 - `[expression for variable in iterable_value if condition]`
 
-#### Dict comprehensions
+### Dict comprehensions
 
 - `{key_expression: value_expression for variable in iterable_value}`
 
-#### Generator comprehensions
+### Generator comprehensions
 
 - `(expression for variable in iterable_value)`
 
-#### Other
+### Other
 
 - `map()`
 
 - `eval(…)`
 
-### Standard libraries
+## Standard libraries
 
-#### `itertools`
+### `itertools`
 
 - `count(start=0, step=1)`
 - `cycle(iterable_value)`

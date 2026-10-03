@@ -1,18 +1,18 @@
-# Yandex. 2.4. Technologies
+# Yandex. 2.4. Technologies. Used
 
-## Used
+Used technologies.
 
-### Python
+## Python
 
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
   - `print(value_1, value_2, end=string_value)`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -24,47 +24,47 @@
 - `num -= 42`
 - `num //= 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 - `42 >= 42`, `42 <= 42`
 
-##### Numbers functions
+#### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
-##### `int`
+#### `int`
 
 - `int()`
   - `int('42')`
   - `int('101', 2)`
 
-#### Boolean Type — `bool`
+### Boolean Type — `bool`
 
 - `False`, `True`
 
-#### Sequence Types — `list`, `tuple`, `range`
+### Sequence Types — `list`, `tuple`, `range`
 
-##### `range`
+#### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = expression_1, expression_2`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
-##### Strings operations
+#### Strings operations
 
 - `string_value_1 + string_value_2`
 - `string_value * 42`
@@ -75,25 +75,25 @@ Doc: `class tuple(iterable=(), /)`.
   - `f'{string_value:^{length}}'`
   - `f'{string_value:>{length}}'`
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
-##### `str`
+#### `str`
 
 - `str(value)`
 
-#### Conditions
+### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 
-#### Loops
+### Loops
 
 - `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`
 
-#### Other
+### Other
 
 - `variable := expression`

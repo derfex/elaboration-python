@@ -1,19 +1,19 @@
-# Yandex. 3.2. Technologies
+# Yandex. 3.2. Technologies. Used
 
-## Used
+Used technologies.
 
-### Python
+## Python
 
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
   - `print(value_1, value_2, end=string_value)`
   - `print(value_1, value_2, sep=string_value)`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -21,30 +21,30 @@
 - `num += 42`
 - `num //= 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
 - `42 > 42`, `42 < 42`
 
-##### `int`
+#### `int`
 
 - `int()`
   - `int('42')`
 
-#### Boolean Type — `bool`
+### Boolean Type — `bool`
 
 - `False`, `True`
 
-#### Iterator Types
+### Iterator Types
 
-##### Iterators operations
+#### Iterators operations
 
 - `*iterable_value`
 
-#### Sequence Types — `list`, `tuple`, `range`
+### Sequence Types — `list`, `tuple`, `range`
 
-##### `list`
+#### `list`
 
 Doc: `class list(iterable=(), /)`.
 
@@ -54,23 +54,23 @@ Doc: `class list(iterable=(), /)`.
 
 - `list_value[index]`, `list_value[-index]`
 
-###### Lists functions
+##### Lists functions
 
 - `len(list_value)`
 - `sorted(iterable_value)`
 
-###### Lists methods
+##### Lists methods
 
 - `list_variable.append(list_item_value)`
 - `list_variable.sort()`
 
-##### `range`
+#### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
@@ -78,37 +78,37 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `tuple_variable[index]`, `tuple_variable[-index]`
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
 
-###### Tuples functions
+##### Tuples functions
 
 - `enumerate(tuple_value)`
 
 - `len(tuple_value)`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
 - `string_value[i:j]`, `string_value[i:j:k]`
 
-##### Strings operations
+#### Strings operations
 
 - `string_variable += string_value`
 
 - `f''`
   - `f'{string_value}'`
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
-##### `str`
+#### `str`
 
 - `str(value)`
 
-##### Strings methods
+#### Strings methods
 
 - `string_value_1.islower()`
 - `string_value_1.join(iterable_value)`
@@ -116,9 +116,9 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.split(string_value_2)`
 - `string_value_1.upper()`
 
-#### Set Types — `set`, `frozenset`
+### Set Types — `set`, `frozenset`
 
-##### Common sets operations
+#### Common sets operations
 
 - `set_value_1 | set_value_2`
 - `set_value_1 & set_value_2`
@@ -128,28 +128,28 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `value in set_value`, `value not in set_value`
 
-##### Common sets functions
+#### Common sets functions
 
 - `len(set_value)`
 
-##### Common sets methods
+#### Common sets methods
 
 - `set_variable.difference(set_value)`
 - `set_variable.union(set_value)`
 
-##### `frozenset`
+#### `frozenset`
 
 - `frozenset(iterable_value)`
 
-##### `set`
+#### `set`
 
 - `set(iterable_value)`
 
-##### Sets methods
+#### Sets methods
 
 - `set_variable.add(value)`
 
-#### Mapping Types — `dict`
+### Mapping Types — `dict`
 
 - `dict()`
 
@@ -157,15 +157,15 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `dict_value[immutable_key]`
 
-##### Dicts operations
+#### Dicts operations
 
 - `immutable_key in dict_value`, `immutable_key not in dict_value`
 
-##### Dicts functions
+#### Dicts functions
 
 - `len(dict_value)`
 
-##### Dicts methods
+#### Dicts methods
 
 - `dict_value.get(immutable_key, default_value)`
 - `dict_value.pop(immutable_key, default_value)`
@@ -174,18 +174,18 @@ Doc: `class tuple(iterable=(), /)`.
 - `dict_value.keys()`
 - `dict_value.values()`
 
-#### Conditions
+### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 - `not condition`
 
-#### Loops
+### Loops
 
 - `for variable in iterable_value:`
 - `while condition:`
 - `continue`
 
-#### Other
+### Other
 
 - `variable := expression`
 

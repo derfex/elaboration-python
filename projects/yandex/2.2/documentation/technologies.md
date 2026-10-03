@@ -1,17 +1,17 @@
-# Yandex. 2.2. Technologies
+# Yandex. 2.2. Technologies. Used
 
-## Used
+Used technologies.
 
-### Python
+## Python
 
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -23,7 +23,7 @@
 - `num -= 42`
 - `num *= 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -33,23 +33,23 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
-##### Numbers functions
+#### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
-##### `float`
+#### `float`
 
 - `float('4.2')`
 
-##### `int`
+#### `int`
 
 - `int()`
   - `int('42')`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
-##### Strings operations
+#### Strings operations
 
 - `string_value * 42`
 
@@ -60,17 +60,17 @@
   - `f'{string_value:^{length}}'`
   - `f'{string_value:>{length}}'`
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 - `string_value_1 > string_value_2`, `string_value_1 < string_value_2`
 
-##### Strings functions
+#### Strings functions
 
 - `len(string_value)`
 - `min(string_value_1, string_value_2)`
 
-#### Conditions
+### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 - `condition_1 and condition_2`
