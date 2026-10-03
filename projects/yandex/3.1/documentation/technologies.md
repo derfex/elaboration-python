@@ -1,17 +1,15 @@
-# Yandex. 3.1. Technologies
+# Yandex. 3.1. Technologies. Used
 
-## Used
+## Python
 
-### Python
-
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -22,18 +20,18 @@
 - `num += 42`
 - `num *= 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 != 42`
 - `42 >= 42`, `42 <= 42`
 
-##### `int`
+#### `int`
 
 - `int()`
 
-#### Sequence Types — `list`, `tuple`, `range`
+### Sequence Types — `list`, `tuple`, `range`
 
-##### `list`
+#### `list`
 
 Doc: `class list(iterable=(), /)`.
 
@@ -41,55 +39,55 @@ Doc: `class list(iterable=(), /)`.
 
 - `list_value[index]`, `list_value[-index]`
 
-###### Lists operations
+##### Lists operations
 
 - `value in list_value`, `value not in list_value`
 
-###### Lists functions
+##### Lists functions
 
 - `len(list_value)`
 - `max(list_value)`
 
-###### Lists methods
+##### Lists methods
 
 - `list_variable.append(list_item_value)`
 - `list_variable.index(list_item_value)`
 - `list_variable.pop()`
 
-##### `range`
+#### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
 - `(value, )`, `(value_1, value_2)`
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = expression_1, expression_2`
 
 - `value in tuple_value`, `value not in tuple_value`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
 - `string_value[index]`, `string_value[-index]`
 - `string_value[i:j]`, `string_value[i:j:k]`
 
-##### Strings operations
+#### Strings operations
 
 - `string_value_1 + string_value_2`
 
 - `string_value_1 in string_value_2`
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 
-##### Strings functions
+#### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
@@ -97,11 +95,11 @@ Doc: `class tuple(iterable=(), /)`.
 - `len(string_value)`
 - `min(string_value_1, string_value_2)`
 
-##### `str`
+#### `str`
 
 - `str(value)`
 
-##### Strings methods
+#### Strings methods
 
 - `string_value_1.count(string_value_2)`
 - `string_value_1.endswith(string_value_2)`
@@ -113,7 +111,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.startswith(string_value_2)`
 - `string_value_1.upper()`
 
-#### Conditions
+### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 - `match subject_expression:`, `case value:`
@@ -121,14 +119,14 @@ Doc: `class tuple(iterable=(), /)`.
 - `condition_1 or condition_2`
 - `not condition`
 
-#### Loops
+### Loops
 
 - `for variable in iterable_value:`
 - `while condition:`
 - `break`
 - `continue`
 
-#### Other
+### Other
 
 - `variable := expression`
 - `map()`

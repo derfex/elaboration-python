@@ -1,19 +1,17 @@
-# Technologies
+# Technologies. Full list
 
-## Full list
+## Python
 
-### Python
-
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
   - `print(value_1, value_2, end=string_value)`
   - `print(value_1, value_2, sep=string_value)`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -27,7 +25,7 @@
 - `num *= 42`
 - `num //= 42`
 
-###### Numbers comparison
+##### Numbers comparison
 
 - `42 == 42`
 - `42 != 42`
@@ -37,34 +35,34 @@
 - `42 >= 42 >= 42`, `42 >= 42 > 42`, etc.
 - `42 <= 42 <= 42`, `42 <= 42 < 42`, etc.
 
-##### Numbers functions
+#### Numbers functions
 
 - `max(42, 4.2)`
 - `min(42, 4.2)`
 
 - `round(4.2)`
 
-##### `float`
+#### `float`
 
 - `float('4.2')`
 
-##### `int`
+#### `int`
 
 - `int()`
   - `int('42')`
   - `int('101', 2)`
 
-#### Boolean Type — `bool`
+### Boolean Type — `bool`
 
 - `False`, `True`
 
-#### Iterator Types
+### Iterator Types
 
-##### Iterators operations
+#### Iterators operations
 
 - `*iterable_value`
 
-##### Iterators functions
+#### Iterators functions
 
 - `iter(iterable_value, /)`
   - `iter(callable_value, sentinel_value, /)`
@@ -77,9 +75,9 @@
 - `enumerate(iterable_value, start=0)`
 - `zip(*iterable_values, strict=False)`
 
-#### Sequence Types — `list`, `tuple`, `range`
+### Sequence Types — `list`, `tuple`, `range`
 
-##### `list`
+#### `list`
 
 Doc: `class list(iterable=(), /)`.
 
@@ -90,7 +88,7 @@ Doc: `class list(iterable=(), /)`.
 - `list_value[index]`, `list_value[-index]`
 - `list_value[i:j]`, `list_value[i:j:k]`
 
-###### Lists operations
+##### Lists operations
 
 - `list_value_1 + list_value_2`
 - `list_value * 42`
@@ -101,7 +99,7 @@ Doc: `class list(iterable=(), /)`.
 - `del list_variable[index]`
 - `del list_variable[i:j:k]`
 
-###### Lists functions
+##### Lists functions
 
 - `enumerate(list_value)`
 
@@ -110,7 +108,7 @@ Doc: `class list(iterable=(), /)`.
 - `min(list_value)`
 - `sorted(iterable_value)`
 
-###### Lists methods
+##### Lists methods
 
 - `list_variable.append(list_item_value)`
 - `list_variable.clear()`
@@ -123,13 +121,13 @@ Doc: `class list(iterable=(), /)`.
 - `list_variable.reverse()`
 - `list_variable.sort()`
 
-##### `range`
+#### `range`
 
 Doc: `class range(stop, /)`, `class range(start, stop, step=1, /)`.
 
 - `range()`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
@@ -140,7 +138,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `tuple_variable[index]`, `tuple_variable[-index]`
 - `tuple_variable[i:j]`, `tuple_variable[i:j:k]`
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
 - `variable_1, variable_2 = expression_1, expression_2`
@@ -150,7 +148,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `value in tuple_value`, `value not in tuple_value`
 
-###### Tuples functions
+##### Tuples functions
 
 - `enumerate(tuple_value)`
 
@@ -158,12 +156,12 @@ Doc: `class tuple(iterable=(), /)`.
 - `max(tuple_value)`
 - `min(tuple_value)`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
 - `string_value[index]`, `string_value[-index]`
 - `string_value[i:j]`, `string_value[i:j:k]`
 
-##### Strings operations
+#### Strings operations
 
 - `string_value_1 + string_value_2`
 - `string_value * 42`
@@ -183,12 +181,12 @@ Doc: `class tuple(iterable=(), /)`.
     """
     ```
 
-###### Strings comparison
+##### Strings comparison
 
 - `string_value_1 == string_value_2`, `string_value_1 != string_value_2`
 - `string_value_1 > string_value_2`, `string_value_1 < string_value_2`
 
-##### Strings functions
+#### Strings functions
 
 - `chr(42)`
 - `ord('ё')`
@@ -199,11 +197,11 @@ Doc: `class tuple(iterable=(), /)`.
 - `max(string_value_1, string_value_2)`
 - `min(string_value_1, string_value_2)`
 
-##### `str`
+#### `str`
 
 - `str(value)`
 
-##### Strings methods
+#### Strings methods
 
 - `string_value_1.capitalize()`
 - `string_value_1.count(string_value_2)`
@@ -228,11 +226,11 @@ Doc: `class tuple(iterable=(), /)`.
 - `string_value_1.upper()`
 - `string_value_1.zfill(42)`
 
-#### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
+### Binary Sequence Types — `bytes`, `bytearray`, `memoryview`
 
-#### Set Types — `set`, `frozenset`
+### Set Types — `set`, `frozenset`
 
-##### Common sets operations
+#### Common sets operations
 
 - `set_value_1 | set_value_2`
 - `set_value_1 & set_value_2`
@@ -242,33 +240,33 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `value in set_value`, `value not in set_value`
 
-###### Common sets comparison
+##### Common sets comparison
 
 - `set_value_1 == set_value_2`, `set_value_1 != set_value_2`
 - `set_value_1 >= set_value_2`, `set_value_1 <= set_value_2`
 
-##### Common sets functions
+#### Common sets functions
 
 - `len(set_value)`
 
-##### Common sets methods
+#### Common sets methods
 
 - `set_variable.difference(set_value)`
 - `set_variable.intersection(set_value)`
 - `set_variable.symmetric_difference(set_value)`
 - `set_variable.union(set_value)`
 
-##### `frozenset`
+#### `frozenset`
 
 - `frozenset(iterable_value)`
 
-##### `set`
+#### `set`
 
 - `set(iterable_value)`
 
 - `{value_1, value_2}`
 
-##### Sets methods
+#### Sets methods
 
 - `set_variable.add(value)`
 - `set_variable.clear()`
@@ -276,7 +274,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `set_variable.pop()`
 - `set_variable.remove(value)`
 
-#### Mapping Types — `dict`
+### Mapping Types — `dict`
 
 - `dict()`
 
@@ -284,17 +282,17 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `dict_value[immutable_key]`
 
-##### Dicts operations
+#### Dicts operations
 
 - `immutable_key in dict_value`, `immutable_key not in dict_value`
 
 - `del dict_value[immutable_key]`
 
-##### Dicts functions
+#### Dicts functions
 
 - `len(dict_value)`
 
-##### Dicts methods
+#### Dicts methods
 
 - `dict_value.clear()`
 - `dict_value.get(immutable_key, default_value)`
@@ -304,7 +302,7 @@ Doc: `class tuple(iterable=(), /)`.
 - `dict_value.keys()`
 - `dict_value.values()`
 
-#### Conditions
+### Conditions
 
 - `if condition:`, `elif condition:`, `else:`
 - `match subject_expression:`, `case value:`
@@ -315,7 +313,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `value_1 if condition else value_2`
 
-#### Loops
+### Loops
 
 - `for variable in iterable_value:`
 - `while condition:`
@@ -323,27 +321,27 @@ Doc: `class tuple(iterable=(), /)`.
 - `continue`
 - `else:`
 
-#### List comprehensions
+### List comprehensions
 
 - `[expression for variable in iterable_value]`
 - `[expression for variable in iterable_value if condition]`
 
-#### Set comprehensions
+### Set comprehensions
 
 - `{expression for variable in iterable_value}`
 - `{expression for variable in iterable_value if condition}`
 
-#### Dict comprehensions
+### Dict comprehensions
 
 - `{key_expression: value_expression for variable in iterable_value}`
 - `{key_expression: value_expression for variable in iterable_value if condition}`
 
-#### Generator comprehensions
+### Generator comprehensions
 
 - `(expression for variable in iterable_value)`
 - `(expression for variable in iterable_value if condition)`
 
-#### Other
+### Other
 
 - `variable := expression`
 
@@ -354,7 +352,7 @@ Doc: `class tuple(iterable=(), /)`.
 
 - `eval(…)`
 
-#### Comments
+### Comments
 
 - `# …`
 - ```python
@@ -363,13 +361,13 @@ Doc: `class tuple(iterable=(), /)`.
   """
   ```
   
-### Standard libraries
+## Standard libraries
 
-#### `copy`
+### `copy`
 
 - `deepcopy(<object>)`
 
-#### `itertools`
+### `itertools`
 
 - `count(start=0, step=1)`
 - `cycle(iterable_value)`

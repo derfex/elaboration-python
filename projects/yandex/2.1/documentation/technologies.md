@@ -1,17 +1,15 @@
-# Yandex. 2.1. Technologies
+# Yandex. 2.1. Technologies. Used
 
-## Used
+## Python
 
-### Python
-
-#### Input and output
+### Input and output
 
 - `input()`
 - `print()`
 
-#### Numeric Types — `int`, `float`, `complex`
+### Numeric Types — `int`, `float`, `complex`
 
-##### Numbers operations
+#### Numbers operations
 
 - `42 + 42`
 - `42 - 42`
@@ -20,23 +18,23 @@
 - `42 // 42`
 - `42 % 42`
 
-##### `int`
+#### `int`
 
 - `int()`
   - `int('42')`
   - `int('101', 2)`
 
-##### `tuple`
+#### `tuple`
 
 Doc: `class tuple(iterable=(), /)`.
 
-###### Tuples operations
+##### Tuples operations
 
 - `variable_1, variable_2 = iterable_value`
 
-#### Text Sequence Type — `str`
+### Text Sequence Type — `str`
 
-##### Strings operations
+#### Strings operations
 
 - `string_value_1 + string_value_2`
 - `string_value * 42`
@@ -51,6 +49,6 @@ Doc: `class tuple(iterable=(), /)`.
     """
     ```
 
-##### `str`
+#### `str`
 
 - `str(value)`
