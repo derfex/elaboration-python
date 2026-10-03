@@ -1,5 +1,7 @@
 # Technologies. Full list
 
+Full list of technologies.
+
 ## Python
 
 ### Input and output

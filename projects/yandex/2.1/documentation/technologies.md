@@ -1,5 +1,7 @@
 # Yandex. 2.1. Technologies. Used
 
+Used technologies.
+
 ## Python
 
 ### Input and output

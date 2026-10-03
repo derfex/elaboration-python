@@ -1,5 +1,7 @@
 # Yandex. 2.6. Final tasks. Technologies. Used
 
+Used technologies.
+
 ## Python
 
 ### Input and output
